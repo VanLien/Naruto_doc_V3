@@ -1,0 +1,146 @@
+
+stand2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sakura_stand/00170
+  rotate: true
+  xy: 552, 33
+  size: 107, 179
+  orig: 1200, 600
+  offset: 273, 112
+  index: -1
+images/sakura_stand/00174
+  rotate: false
+  xy: 140, 122
+  size: 109, 181
+  orig: 1200, 600
+  offset: 272, 110
+  index: -1
+images/sakura_stand/00178
+  rotate: true
+  xy: 2, 2
+  size: 117, 183
+  orig: 1200, 600
+  offset: 264, 108
+  index: -1
+images/sakura_stand/00182
+  rotate: true
+  xy: 448, 365
+  size: 125, 183
+  orig: 1200, 600
+  offset: 256, 108
+  index: -1
+images/sakura_stand/00186
+  rotate: false
+  xy: 2, 121
+  size: 136, 182
+  orig: 1200, 600
+  offset: 249, 109
+  index: -1
+images/sakura_stand/00190
+  rotate: false
+  xy: 301, 323
+  size: 145, 167
+  orig: 1200, 600
+  offset: 244, 123
+  index: -1
+images/sakura_stand/00194
+  rotate: false
+  xy: 2, 305
+  size: 147, 185
+  orig: 1200, 600
+  offset: 242, 105
+  index: -1
+images/sakura_stand/00198
+  rotate: false
+  xy: 151, 307
+  size: 148, 183
+  orig: 1200, 600
+  offset: 240, 107
+  index: -1
+images/sakura_stand/00202
+  rotate: true
+  xy: 369, 40
+  size: 107, 181
+  orig: 1200, 600
+  offset: 279, 109
+  index: -1
+images/sakura_stand/00206
+  rotate: true
+  xy: 187, 3
+  size: 108, 180
+  orig: 1200, 600
+  offset: 275, 110
+  index: -1
+images/tsunade_stand/00170
+  rotate: true
+  xy: 448, 257
+  size: 106, 193
+  orig: 1200, 600
+  offset: 246, 105
+  index: -1
+images/tsunade_stand/00174
+  rotate: false
+  xy: 251, 113
+  size: 108, 192
+  orig: 1200, 600
+  offset: 243, 105
+  index: -1
+images/tsunade_stand/00178
+  rotate: true
+  xy: 833, 262
+  size: 113, 189
+  orig: 1200, 600
+  offset: 239, 106
+  index: -1
+images/tsunade_stand/00182
+  rotate: true
+  xy: 643, 258
+  size: 115, 188
+  orig: 1200, 600
+  offset: 237, 108
+  index: -1
+images/tsunade_stand/00186
+  rotate: true
+  xy: 643, 142
+  size: 114, 188
+  orig: 1200, 600
+  offset: 238, 109
+  index: -1
+images/tsunade_stand/00190
+  rotate: true
+  xy: 833, 42
+  size: 106, 187
+  orig: 1200, 600
+  offset: 246, 110
+  index: -1
+images/tsunade_stand/00194
+  rotate: true
+  xy: 833, 150
+  size: 110, 189
+  orig: 1200, 600
+  offset: 242, 109
+  index: -1
+images/tsunade_stand/00198
+  rotate: true
+  xy: 827, 377
+  size: 113, 193
+  orig: 1200, 600
+  offset: 238, 105
+  index: -1
+images/tsunade_stand/00202
+  rotate: true
+  xy: 633, 375
+  size: 115, 192
+  orig: 1200, 600
+  offset: 236, 105
+  index: -1
+images/tsunade_stand/00206
+  rotate: true
+  xy: 361, 149
+  size: 106, 191
+  orig: 1200, 600
+  offset: 245, 106
+  index: -1

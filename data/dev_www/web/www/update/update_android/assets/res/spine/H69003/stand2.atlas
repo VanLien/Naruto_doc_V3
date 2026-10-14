@@ -1,0 +1,76 @@
+
+stand2.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,Nearest
+repeat: none
+image/H69003/crow/00001
+  rotate: false
+  xy: 159, 123
+  size: 146, 126
+  orig: 234, 234
+  offset: 45, 15
+  index: -1
+image/H69003/crow/00002
+  rotate: false
+  xy: 452, 140
+  size: 156, 109
+  orig: 234, 234
+  offset: 42, 38
+  index: -1
+image/H69003/crow/00003
+  rotate: false
+  xy: 770, 176
+  size: 170, 73
+  orig: 234, 234
+  offset: 35, 98
+  index: -1
+image/H69003/crow/00004
+  rotate: true
+  xy: 452, 29
+  size: 109, 125
+  orig: 234, 234
+  offset: 64, 97
+  index: -1
+image/H69003/crow/00005
+  rotate: false
+  xy: 921, 47
+  size: 101, 127
+  orig: 234, 234
+  offset: 66, 97
+  index: -1
+image/H69003/crow/00006
+  rotate: false
+  xy: 2, 2
+  size: 122, 116
+  orig: 234, 234
+  offset: 60, 97
+  index: -1
+image/H69003/crow/00007
+  rotate: false
+  xy: 770, 86
+  size: 149, 88
+  orig: 234, 234
+  offset: 51, 98
+  index: -1
+image/H69003/crow/00008
+  rotate: false
+  xy: 610, 143
+  size: 158, 106
+  orig: 234, 234
+  offset: 48, 45
+  index: -1
+image/H69003/crow/00009
+  rotate: false
+  xy: 2, 120
+  size: 155, 129
+  orig: 234, 234
+  offset: 46, 14
+  index: -1
+image/H69003/crow/00010
+  rotate: false
+  xy: 307, 110
+  size: 143, 139
+  orig: 234, 234
+  offset: 46, 3
+  index: -1

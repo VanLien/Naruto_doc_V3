@@ -1,0 +1,131 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/action5/tx/1_1/hit1_15
+  rotate: false
+  xy: 2, 1210
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_16
+  rotate: false
+  xy: 2, 606
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_17
+  rotate: false
+  xy: 614, 1210
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_18
+  rotate: false
+  xy: 2, 2
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_19
+  rotate: false
+  xy: 614, 606
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_20
+  rotate: false
+  xy: 1226, 1210
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_21
+  rotate: false
+  xy: 614, 2
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_22
+  rotate: false
+  xy: 1226, 606
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_23
+  rotate: false
+  xy: 1226, 2
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+
+action2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/action5/tx/1_1/hit1_12
+  rotate: true
+  xy: 1213, 347
+  size: 412, 414
+  orig: 610, 608
+  offset: 81, 78
+  index: -1
+images/action5/tx/1_1/hit1_13
+  rotate: false
+  xy: 1226, 761
+  size: 458, 457
+  orig: 610, 608
+  offset: 74, 53
+  index: -1
+images/action5/tx/1_1/hit1_14
+  rotate: false
+  xy: 1226, 1220
+  size: 574, 571
+  orig: 610, 608
+  offset: 14, 0
+  index: -1
+images/action5/tx/1_1/hit1_24
+  rotate: false
+  xy: 2, 1189
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_25
+  rotate: false
+  xy: 2, 585
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_26
+  rotate: false
+  xy: 614, 1189
+  size: 610, 602
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_27
+  rotate: false
+  xy: 2, 2
+  size: 597, 581
+  orig: 610, 608
+  offset: 0, 0
+  index: -1
+images/action5/tx/1_1/hit1_28
+  rotate: false
+  xy: 614, 606
+  size: 597, 581
+  orig: 610, 608
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,138 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/action2_hit/0_00015
+  rotate: false
+  xy: 1531, 290
+  size: 468, 367
+  orig: 1500, 900
+  offset: 348, 373
+  index: -1
+images/action2_hit/0_00017
+  rotate: false
+  xy: 2, 708
+  size: 499, 435
+  orig: 1500, 900
+  offset: 572, 184
+  index: -1
+images/action2_hit/0_00018
+  rotate: false
+  xy: 2, 1145
+  size: 536, 438
+  orig: 1500, 900
+  offset: 560, 181
+  index: -1
+images/action2_hit/0_00019
+  rotate: false
+  xy: 503, 357
+  size: 518, 406
+  orig: 1500, 900
+  offset: 568, 177
+  index: -1
+images/action2_hit/0_00020
+  rotate: true
+  xy: 2, 193
+  size: 513, 401
+  orig: 1500, 900
+  offset: 572, 178
+  index: -1
+images/action2_hit/0_00021
+  rotate: false
+  xy: 540, 765
+  size: 542, 415
+  orig: 1500, 900
+  offset: 556, 175
+  index: -1
+images/action2_hit/0_00022
+  rotate: true
+  xy: 1611, 659
+  size: 506, 389
+  orig: 1500, 900
+  offset: 586, 179
+  index: -1
+images/action2_hit/0_00023
+  rotate: false
+  xy: 1084, 753
+  size: 525, 412
+  orig: 1500, 900
+  offset: 578, 165
+  index: -1
+images/action2_hit/0_00024
+  rotate: false
+  xy: 1023, 362
+  size: 506, 389
+  orig: 1500, 900
+  offset: 582, 180
+  index: -1
+images/action2_hit/0_00026
+  rotate: false
+  xy: 1306, 1591
+  size: 600, 453
+  orig: 1500, 900
+  offset: 635, 62
+  index: -1
+images/action2_hit/0_00027
+  rotate: false
+  xy: 658, 1587
+  size: 646, 457
+  orig: 1500, 900
+  offset: 612, 70
+  index: -1
+images/action2_hit/0_00028
+  rotate: false
+  xy: 2, 1585
+  size: 654, 459
+  orig: 1500, 900
+  offset: 608, 76
+  index: -1
+images/action2_hit/0_00029
+  rotate: false
+  xy: 1306, 1167
+  size: 633, 422
+  orig: 1500, 900
+  offset: 618, 112
+  index: -1
+images/action2_hit/0_00030
+  rotate: false
+  xy: 658, 1182
+  size: 642, 403
+  orig: 1500, 900
+  offset: 614, 130
+  index: -1
+images/action2_hit/0_00031
+  rotate: false
+  xy: 1023, 2
+  size: 408, 358
+  orig: 1500, 900
+  offset: 733, 163
+  index: -1
+images/action2_hit/0_00032
+  rotate: false
+  xy: 405, 11
+  size: 397, 344
+  orig: 1500, 900
+  offset: 738, 175
+  index: -1
+
+action2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/action2_hit/0_00016
+  rotate: false
+  xy: 2, 2
+  size: 465, 369
+  orig: 1500, 900
+  offset: 469, 284
+  index: -1
+images/action2_hit/0_00025
+  rotate: false
+  xy: 469, 67
+  size: 381, 304
+  orig: 1500, 900
+  offset: 745, 160
+  index: -1

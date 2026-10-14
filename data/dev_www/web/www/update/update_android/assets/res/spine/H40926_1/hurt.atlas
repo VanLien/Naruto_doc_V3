@@ -1,0 +1,139 @@
+
+hurt.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hurt/10473
+  rotate: false
+  xy: 1591, 344
+  size: 103, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10474
+  rotate: false
+  xy: 108, 2
+  size: 103, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10475
+  rotate: false
+  xy: 1696, 344
+  size: 103, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10476
+  rotate: true
+  xy: 1591, 240
+  size: 102, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10477
+  rotate: true
+  xy: 1758, 240
+  size: 102, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10478
+  rotate: true
+  xy: 1274, 157
+  size: 102, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10479
+  rotate: false
+  xy: 213, 2
+  size: 102, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10480
+  rotate: false
+  xy: 422, 10
+  size: 102, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10481
+  rotate: false
+  xy: 526, 21
+  size: 102, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10482
+  rotate: false
+  xy: 1801, 344
+  size: 103, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10483
+  rotate: false
+  xy: 1906, 344
+  size: 103, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10484
+  rotate: false
+  xy: 317, 10
+  size: 103, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/hurt/10485
+  rotate: false
+  xy: 2, 2
+  size: 104, 165
+  orig: 816, 408
+  offset: 239, 98
+  index: -1
+images/stand/zj/nl1_16
+  rotate: false
+  xy: 2, 169
+  size: 266, 340
+  orig: 340, 340
+  offset: 41, 0
+  index: -1
+images/stand/zj/nl1_17
+  rotate: false
+  xy: 270, 177
+  size: 246, 332
+  orig: 340, 340
+  offset: 47, 5
+  index: -1
+images/stand/zj/nl1_18
+  rotate: false
+  xy: 518, 188
+  size: 249, 321
+  orig: 340, 340
+  offset: 43, 2
+  index: -1
+images/stand/zj/nl1_19
+  rotate: false
+  xy: 1022, 196
+  size: 250, 313
+  orig: 340, 340
+  offset: 46, 0
+  index: -1
+images/stand/zj/nl1_20
+  rotate: true
+  xy: 1274, 261
+  size: 248, 315
+  orig: 340, 340
+  offset: 45, 0
+  index: -1
+images/stand/zj/nl1_21
+  rotate: false
+  xy: 769, 194
+  size: 251, 315
+  orig: 340, 340
+  offset: 42, 2
+  index: -1

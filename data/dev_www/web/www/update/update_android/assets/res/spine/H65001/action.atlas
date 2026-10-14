@@ -1,0 +1,62 @@
+
+action.png
+size: 222,301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Left  forelimb
+  rotate: false
+  xy: 128, 165
+  size: 50, 134
+  orig: 51, 134
+  offset: 0, 0
+  index: -1
+Left ear
+  rotate: true
+  xy: 2, 14
+  size: 28, 90
+  orig: 28, 90
+  offset: 0, 0
+  index: -1
+Right
+  rotate: true
+  xy: 128, 145
+  size: 18, 88
+  orig: 18, 88
+  offset: 0, 0
+  index: -1
+Right forelimb
+  rotate: false
+  xy: 180, 168
+  size: 40, 131
+  orig: 40, 131
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 165, 12
+  size: 49, 131
+  orig: 49, 132
+  offset: 0, 0
+  index: -1
+a
+  rotate: true
+  xy: 111, 2
+  size: 121, 52
+  orig: 121, 52
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 125
+  size: 124, 174
+  orig: 126, 174
+  offset: 1, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 44
+  size: 79, 107
+  orig: 80, 108
+  offset: 0, 0
+  index: -1

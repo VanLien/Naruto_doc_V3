@@ -1,0 +1,48 @@
+
+action.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action3/action3_texiao2/action3_texiao2_00017
+  rotate: false
+  xy: 1225, 334
+  size: 118, 106
+  orig: 321, 308
+  offset: 107, 101
+  index: -1
+action3/action3_texiao2/action3_texiao2_00021
+  rotate: false
+  xy: 930, 156
+  size: 293, 284
+  orig: 321, 308
+  offset: 15, 12
+  index: -1
+action3/action3_texiao2/action3_texiao2_00025
+  rotate: true
+  xy: 315, 153
+  size: 287, 305
+  orig: 321, 308
+  offset: 19, 0
+  index: -1
+action3/action3_texiao2/action3_texiao2_00029
+  rotate: false
+  xy: 622, 154
+  size: 306, 286
+  orig: 321, 308
+  offset: 15, 9
+  index: -1
+action3/action3_texiao2/action3_texiao2_00033
+  rotate: false
+  xy: 2, 142
+  size: 311, 298
+  orig: 321, 308
+  offset: 0, 5
+  index: -1
+action3/action3_texiao3/action3_texiao3_00005
+  rotate: false
+  xy: 2, 2
+  size: 137, 138
+  orig: 176, 223
+  offset: 6, 22
+  index: -1

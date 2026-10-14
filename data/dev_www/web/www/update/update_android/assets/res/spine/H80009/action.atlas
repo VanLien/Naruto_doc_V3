@@ -1,0 +1,83 @@
+
+action.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_body
+  rotate: false
+  xy: 369, 92
+  size: 56, 30
+  orig: 61, 71
+  offset: 4, 12
+  index: -1
+Cockscomb
+  rotate: true
+  xy: 202, 52
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+F_body
+  rotate: false
+  xy: 110, 45
+  size: 90, 77
+  orig: 127, 99
+  offset: 5, 5
+  index: -1
+Headdress
+  rotate: false
+  xy: 2, 8
+  size: 63, 30
+  orig: 63, 30
+  offset: 0, 0
+  index: -1
+arms3_1
+  rotate: false
+  xy: 316, 85
+  size: 51, 37
+  orig: 51, 37
+  offset: 0, 0
+  index: -1
+arms3_2
+  rotate: false
+  xy: 427, 76
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+arms3_3
+  rotate: false
+  xy: 67, 2
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+arms3_4
+  rotate: false
+  xy: 476, 95
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 255, 81
+  size: 41, 59
+  orig: 41, 68
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 2, 40
+  size: 106, 82
+  orig: 124, 117
+  offset: 0, 5
+  index: -1
+wing
+  rotate: false
+  xy: 202, 67
+  size: 51, 55
+  orig: 51, 55
+  offset: 0, 0
+  index: -1

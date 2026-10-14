@@ -1,0 +1,131 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/newE205141/000000
+  rotate: false
+  xy: 581, 91
+  size: 145, 134
+  orig: 1297, 973
+  offset: 364, 363
+  index: -1
+images/newE205141/000003
+  rotate: true
+  xy: 1, 18
+  size: 648, 579
+  orig: 1297, 973
+  offset: 199, 158
+  index: -1
+images/newE205141/000006
+  rotate: true
+  xy: 1, 667
+  size: 795, 588
+  orig: 1297, 973
+  offset: 12, 185
+  index: -1
+images/newE205141/000007
+  rotate: true
+  xy: 923, 1347
+  size: 670, 593
+  orig: 1297, 973
+  offset: 8, 183
+  index: -1
+images/newE205141/000009
+  rotate: false
+  xy: 1, 1463
+  size: 921, 554
+  orig: 1297, 973
+  offset: 5, 180
+  index: -1
+images/newE205141/000012
+  rotate: false
+  xy: 590, 795
+  size: 883, 551
+  orig: 1297, 973
+  offset: 79, 178
+  index: -1
+images/newE205141/000013
+  rotate: false
+  xy: 590, 226
+  size: 865, 568
+  orig: 1297, 973
+  offset: 83, 182
+  index: -1
+images/newE205141/000014
+  rotate: true
+  xy: 1474, 486
+  size: 860, 572
+  orig: 1297, 973
+  offset: 89, 188
+  index: -1
+images/newE205141/000017
+  rotate: false
+  xy: 1456, 1
+  size: 545, 484
+  orig: 1297, 973
+  offset: 396, 266
+  index: -1
+images/newE205141/000018
+  rotate: true
+  xy: 1517, 1472
+  size: 545, 484
+  orig: 1297, 973
+  offset: 399, 266
+  index: -1
+
+action2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/newE205141/000001
+  rotate: false
+  xy: 810, 29
+  size: 583, 542
+  orig: 1297, 973
+  offset: 235, 135
+  index: -1
+images/newE205141/000004
+  rotate: false
+  xy: 857, 572
+  size: 753, 558
+  orig: 1297, 973
+  offset: 97, 190
+  index: -1
+images/newE205141/000005
+  rotate: false
+  xy: 1, 1
+  size: 808, 571
+  orig: 1297, 973
+  offset: 37, 191
+  index: -1
+images/newE205141/000011
+  rotate: false
+  xy: 1, 573
+  size: 839, 555
+  orig: 1297, 973
+  offset: 89, 176
+  index: -1
+images/newE205141/000015
+  rotate: false
+  xy: 1, 1129
+  size: 855, 572
+  orig: 1297, 973
+  offset: 95, 194
+  index: -1
+images/newE205141/000016
+  rotate: false
+  xy: 857, 1131
+  size: 814, 570
+  orig: 1297, 973
+  offset: 127, 201
+  index: -1
+images/newE205141/000019
+  rotate: false
+  xy: 1672, 1221
+  size: 373, 480
+  orig: 1297, 973
+  offset: 561, 268
+  index: -1

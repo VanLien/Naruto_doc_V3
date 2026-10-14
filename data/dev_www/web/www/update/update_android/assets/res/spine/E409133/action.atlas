@@ -1,0 +1,96 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kamui/43
+  rotate: true
+  xy: 2, 6
+  size: 524, 664
+  orig: 800, 800
+  offset: 138, 68
+  index: -1
+images/kamui/45
+  rotate: false
+  xy: 756, 2
+  size: 656, 586
+  orig: 800, 800
+  offset: 72, 107
+  index: -1
+images/kamui/46
+  rotate: false
+  xy: 1414, 68
+  size: 573, 630
+  orig: 800, 800
+  offset: 113, 85
+  index: -1
+images/kamui/61
+  rotate: true
+  xy: 733, 1315
+  size: 711, 770
+  orig: 800, 800
+  offset: 50, 2
+  index: -1
+images/kamui/63
+  rotate: false
+  xy: 2, 1252
+  size: 729, 774
+  orig: 800, 800
+  offset: 71, 0
+  index: -1
+images/kamui/65
+  rotate: true
+  xy: 2, 532
+  size: 718, 752
+  orig: 800, 800
+  offset: 70, 0
+  index: -1
+images/kamui/66
+  rotate: false
+  xy: 756, 590
+  size: 637, 723
+  orig: 800, 800
+  offset: 101, 14
+  index: -1
+images/kamui/67
+  rotate: false
+  xy: 1395, 700
+  size: 577, 613
+  orig: 800, 800
+  offset: 113, 71
+  index: -1
+images/kamui/72
+  rotate: false
+  xy: 1505, 1449
+  size: 510, 577
+  orig: 800, 800
+  offset: 143, 104
+  index: -1
+
+action2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kamui/69
+  rotate: true
+  xy: 2, 2
+  size: 507, 586
+  orig: 800, 800
+  offset: 135, 94
+  index: -1
+images/kamui/73
+  rotate: true
+  xy: 590, 6
+  size: 503, 528
+  orig: 800, 800
+  offset: 149, 138
+  index: -1
+images/kamui/75
+  rotate: false
+  xy: 1120, 61
+  size: 463, 448
+  orig: 800, 800
+  offset: 167, 187
+  index: -1

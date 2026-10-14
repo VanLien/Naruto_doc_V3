@@ -1,0 +1,202 @@
+
+stand2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/stand/10137
+  rotate: false
+  xy: 1148, 302
+  size: 92, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10138
+  rotate: false
+  xy: 1239, 552
+  size: 93, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10139
+  rotate: false
+  xy: 1334, 580
+  size: 93, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10140
+  rotate: false
+  xy: 1929, 828
+  size: 94, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10141
+  rotate: true
+  xy: 281, 67
+  size: 94, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10142
+  rotate: false
+  xy: 1052, 302
+  size: 94, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10143
+  rotate: true
+  xy: 456, 67
+  size: 94, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10144
+  rotate: true
+  xy: 1052, 206
+  size: 94, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10145
+  rotate: true
+  xy: 631, 67
+  size: 94, 173
+  orig: 816, 408
+  offset: 248, 99
+  index: -1
+images/stand/10146
+  rotate: true
+  xy: 806, 79
+  size: 94, 173
+  orig: 816, 408
+  offset: 248, 99
+  index: -1
+images/stand/10147
+  rotate: false
+  xy: 1429, 580
+  size: 93, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10148
+  rotate: true
+  xy: 1052, 111
+  size: 93, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10149
+  rotate: true
+  xy: 1334, 485
+  size: 93, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/10150
+  rotate: false
+  xy: 1227, 127
+  size: 92, 173
+  orig: 816, 408
+  offset: 249, 99
+  index: -1
+images/stand/zj/nl1_16
+  rotate: true
+  xy: 282, 735
+  size: 266, 340
+  orig: 340, 340
+  offset: 41, 0
+  index: -1
+images/stand/zj/nl1_17
+  rotate: true
+  xy: 1272, 755
+  size: 246, 332
+  orig: 340, 340
+  offset: 47, 5
+  index: -1
+images/stand/zj/nl1_18
+  rotate: true
+  xy: 1606, 752
+  size: 249, 321
+  orig: 340, 340
+  offset: 43, 2
+  index: -1
+images/stand/zj/nl1_19
+  rotate: false
+  xy: 546, 163
+  size: 250, 313
+  orig: 340, 340
+  offset: 46, 0
+  index: -1
+images/stand/zj/nl1_20
+  rotate: true
+  xy: 922, 477
+  size: 248, 315
+  orig: 340, 340
+  offset: 45, 0
+  index: -1
+images/stand/zj/nl1_21
+  rotate: true
+  xy: 605, 478
+  size: 251, 315
+  orig: 340, 340
+  offset: 42, 2
+  index: -1
+images/stand/zj/nl1_22
+  rotate: false
+  xy: 798, 175
+  size: 252, 300
+  orig: 340, 340
+  offset: 39, 8
+  index: -1
+images/stand/zj/nl1_23
+  rotate: true
+  xy: 282, 478
+  size: 255, 321
+  orig: 340, 340
+  offset: 37, 1
+  index: -1
+images/stand/zj/nl1_24
+  rotate: false
+  xy: 281, 163
+  size: 263, 313
+  orig: 340, 340
+  offset: 34, 0
+  index: -1
+images/stand/zj/nl1_25
+  rotate: true
+  xy: 624, 731
+  size: 270, 322
+  orig: 340, 340
+  offset: 32, 1
+  index: -1
+images/stand/zj/nl1_26
+  rotate: true
+  xy: 948, 727
+  size: 274, 322
+  orig: 340, 340
+  offset: 30, 0
+  index: -1
+images/stand/zj/nl1_27
+  rotate: false
+  xy: 2, 2
+  size: 277, 326
+  orig: 340, 340
+  offset: 28, 2
+  index: -1
+images/stand/zj/nl1_28
+  rotate: false
+  xy: 2, 669
+  size: 278, 332
+  orig: 340, 340
+  offset: 29, 0
+  index: -1
+images/stand/zj/nl1_29
+  rotate: false
+  xy: 2, 330
+  size: 272, 337
+  orig: 340, 340
+  offset: 37, 0
+  index: -1

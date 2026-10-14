@@ -1,0 +1,97 @@
+
+hurt.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hurt/hurt_00
+  rotate: false
+  xy: 0, 222
+  size: 182, 222
+  orig: 458, 382
+  offset: 91, 68
+  index: -1
+hurt/hurt_01
+  rotate: false
+  xy: 0, 0
+  size: 177, 222
+  orig: 458, 382
+  offset: 91, 68
+  index: -1
+hurt/hurt_02
+  rotate: false
+  xy: 1266, 228
+  size: 174, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_03
+  rotate: true
+  xy: 1440, 272
+  size: 172, 218
+  orig: 458, 382
+  offset: 91, 72
+  index: -1
+hurt/hurt_04
+  rotate: true
+  xy: 1440, 101
+  size: 171, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_05
+  rotate: false
+  xy: 182, 228
+  size: 184, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_06
+  rotate: false
+  xy: 366, 228
+  size: 184, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_07
+  rotate: true
+  xy: 1658, 271
+  size: 173, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_08
+  rotate: false
+  xy: 1874, 228
+  size: 174, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_09
+  rotate: false
+  xy: 1090, 228
+  size: 176, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_10
+  rotate: false
+  xy: 912, 228
+  size: 178, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_11
+  rotate: false
+  xy: 732, 228
+  size: 180, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1
+hurt/hurt_12
+  rotate: false
+  xy: 550, 228
+  size: 182, 216
+  orig: 458, 382
+  offset: 91, 74
+  index: -1

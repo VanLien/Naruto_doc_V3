@@ -1,0 +1,76 @@
+
+hurt3.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tsunade_stand2/0_00010
+  rotate: true
+  xy: 397, 5
+  size: 105, 141
+  orig: 1200, 600
+  offset: 218, 122
+  index: -1
+images/tsunade_stand2/0_00011
+  rotate: true
+  xy: 540, 3
+  size: 105, 140
+  orig: 1200, 600
+  offset: 218, 122
+  index: -1
+images/tsunade_stand2/0_00012
+  rotate: true
+  xy: 244, 2
+  size: 109, 151
+  orig: 1200, 600
+  offset: 218, 122
+  index: -1
+images/tsunade_stand2/0_00013
+  rotate: true
+  xy: 725, 112
+  size: 115, 156
+  orig: 1200, 600
+  offset: 213, 122
+  index: -1
+images/tsunade_stand2/0_00014
+  rotate: true
+  xy: 406, 112
+  size: 115, 158
+  orig: 1200, 600
+  offset: 212, 122
+  index: -1
+images/tsunade_stand2/0_00015
+  rotate: false
+  xy: 2, 68
+  size: 122, 159
+  orig: 1200, 600
+  offset: 205, 122
+  index: -1
+images/tsunade_stand2/0_00016
+  rotate: true
+  xy: 244, 113
+  size: 114, 160
+  orig: 1200, 600
+  offset: 217, 122
+  index: -1
+images/tsunade_stand2/0_00017
+  rotate: false
+  xy: 126, 68
+  size: 116, 159
+  orig: 1200, 600
+  offset: 214, 122
+  index: -1
+images/tsunade_stand2/0_00018
+  rotate: true
+  xy: 566, 110
+  size: 117, 157
+  orig: 1200, 600
+  offset: 210, 122
+  index: -1
+images/tsunade_stand2/0_00019
+  rotate: false
+  xy: 883, 75
+  size: 118, 152
+  orig: 1200, 600
+  offset: 205, 122
+  index: -1

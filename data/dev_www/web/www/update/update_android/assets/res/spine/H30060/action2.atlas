@@ -1,0 +1,55 @@
+
+action2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/attack/1
+  rotate: true
+  xy: 1742, 168
+  size: 342, 260
+  orig: 620, 350
+  offset: 105, 54
+  index: -1
+images/attack/2
+  rotate: false
+  xy: 1396, 242
+  size: 344, 268
+  orig: 620, 350
+  offset: 104, 53
+  index: -1
+images/attack/3
+  rotate: false
+  xy: 1049, 236
+  size: 345, 274
+  orig: 620, 350
+  offset: 103, 54
+  index: -1
+images/attack/4
+  rotate: false
+  xy: 352, 233
+  size: 346, 277
+  orig: 620, 350
+  offset: 100, 59
+  index: -1
+images/attack/5
+  rotate: false
+  xy: 700, 234
+  size: 347, 276
+  orig: 620, 350
+  offset: 97, 65
+  index: -1
+images/attack/6
+  rotate: false
+  xy: 2, 231
+  size: 348, 279
+  orig: 620, 350
+  offset: 94, 64
+  index: -1
+images/attack/7
+  rotate: false
+  xy: 352, 2
+  size: 349, 229
+  orig: 620, 350
+  offset: 92, 57
+  index: -1

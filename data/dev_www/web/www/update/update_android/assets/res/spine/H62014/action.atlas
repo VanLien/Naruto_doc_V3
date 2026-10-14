@@ -1,0 +1,125 @@
+
+action.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm R
+  rotate: true
+  xy: 843, 153
+  size: 94, 179
+  orig: 94, 179
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 583, 22
+  size: 123, 144
+  orig: 123, 144
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 305, 121
+  size: 126, 276
+  orig: 126, 276
+  offset: 0, 0
+  index: -1
+bow tie1
+  rotate: false
+  xy: 793, 92
+  size: 27, 53
+  orig: 27, 53
+  offset: 0, 0
+  index: -1
+bow tie2
+  rotate: false
+  xy: 729, 25
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+bow tie3
+  rotate: false
+  xy: 771, 45
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+earrings
+  rotate: false
+  xy: 822, 130
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+eyebrow
+  rotate: true
+  xy: 564, 51
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+eyelid
+  rotate: false
+  xy: 187, 30
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+eyelid2
+  rotate: false
+  xy: 793, 79
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: true
+  xy: 2, 2
+  size: 47, 112
+  orig: 47, 112
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 2, 51
+  size: 196, 301
+  orig: 196, 301
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: false
+  xy: 564, 78
+  size: 17, 41
+  orig: 17, 41
+  offset: 0, 0
+  index: -1
+hat1
+  rotate: false
+  xy: 583, 147
+  size: 258, 100
+  orig: 258, 100
+  offset: 0, 0
+  index: -1
+hat2
+  rotate: false
+  xy: 305, 24
+  size: 257, 95
+  orig: 257, 95
+  offset: 0, 0
+  index: -1
+hat3
+  rotate: false
+  xy: 116, 3
+  size: 69, 46
+  orig: 69, 46
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 729, 70
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1

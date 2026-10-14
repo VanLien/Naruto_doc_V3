@@ -1,0 +1,160 @@
+
+action.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: true
+  xy: 543, 38
+  size: 88, 119
+  orig: 88, 119
+  offset: 0, 0
+  index: -1
+L_clothing
+  rotate: true
+  xy: 248, 36
+  size: 90, 148
+  orig: 90, 148
+  offset: 0, 0
+  index: -1
+L_clothing2
+  rotate: false
+  xy: 780, 46
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+L_eyebrow
+  rotate: false
+  xy: 2, 5
+  size: 20, 5
+  orig: 20, 5
+  offset: 0, 0
+  index: -1
+L_eyelid
+  rotate: true
+  xy: 650, 19
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: true
+  xy: 569, 2
+  size: 34, 55
+  orig: 34, 55
+  offset: 0, 0
+  index: -1
+R_clothing
+  rotate: true
+  xy: 669, 13
+  size: 35, 108
+  orig: 35, 108
+  offset: 0, 0
+  index: -1
+R_eyebrow
+  rotate: true
+  xy: 325, 3
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+R_eyelid
+  rotate: true
+  xy: 650, 3
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+R_forearm
+  rotate: false
+  xy: 936, 64
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 12
+  size: 114, 244
+  orig: 114, 244
+  offset: 0, 0
+  index: -1
+bosom
+  rotate: false
+  xy: 859, 48
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+cup
+  rotate: true
+  xy: 485, 9
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+finger
+  rotate: true
+  xy: 403, 10
+  size: 25, 45
+  orig: 25, 45
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 450, 2
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 528, 12
+  size: 23, 39
+  orig: 23, 39
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 325, 16
+  size: 18, 76
+  orig: 18, 76
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: true
+  xy: 248, 9
+  size: 25, 75
+  orig: 25, 75
+  offset: 0, 0
+  index: -1
+hair5
+  rotate: true
+  xy: 398, 37
+  size: 89, 143
+  orig: 89, 143
+  offset: 0, 0
+  index: -1
+hair6
+  rotate: true
+  xy: 664, 50
+  size: 76, 114
+  orig: 76, 114
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 936, 13
+  size: 49, 81
+  orig: 55, 81
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 626, 11
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1

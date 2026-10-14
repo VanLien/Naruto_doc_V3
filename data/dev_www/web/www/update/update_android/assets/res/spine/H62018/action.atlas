@@ -1,0 +1,83 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meimao1
+  rotate: false
+  xy: 1918, 1770
+  size: 51, 28
+  orig: 59, 36
+  offset: 4, 4
+  index: -1
+meimao2
+  rotate: false
+  xy: 2, 2
+  size: 51, 27
+  orig: 59, 35
+  offset: 4, 4
+  index: -1
+pifeng
+  rotate: false
+  xy: 2, 1060
+  size: 1107, 738
+  orig: 1115, 746
+  offset: 4, 4
+  index: -1
+shenqu
+  rotate: false
+  xy: 2, 229
+  size: 552, 829
+  orig: 560, 837
+  offset: 4, 4
+  index: -1
+tou
+  rotate: false
+  xy: 867, 803
+  size: 191, 255
+  orig: 199, 263
+  offset: 4, 4
+  index: -1
+youbi
+  rotate: false
+  xy: 1111, 1336
+  size: 346, 136
+  orig: 354, 144
+  offset: 4, 4
+  index: -1
+youjiao
+  rotate: false
+  xy: 556, 239
+  size: 309, 819
+  orig: 317, 827
+  offset: 4, 4
+  index: -1
+youyan
+  rotate: false
+  xy: 394, 189
+  size: 40, 38
+  orig: 48, 46
+  offset: 4, 4
+  index: -1
+zuobi
+  rotate: false
+  xy: 2, 31
+  size: 390, 196
+  orig: 398, 204
+  offset: 4, 4
+  index: -1
+zuojiao
+  rotate: true
+  xy: 1111, 1474
+  size: 324, 805
+  orig: 332, 813
+  offset: 4, 4
+  index: -1
+zuoyan
+  rotate: false
+  xy: 1111, 1298
+  size: 38, 36
+  orig: 46, 44
+  offset: 4, 4
+  index: -1

@@ -1,0 +1,125 @@
+
+action.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shangyanpi1
+  rotate: false
+  xy: 512, 334
+  size: 33, 21
+  orig: 35, 25
+  offset: 1, 4
+  index: -1
+shangyanpi2
+  rotate: false
+  xy: 971, 997
+  size: 29, 24
+  orig: 33, 28
+  offset: 1, 4
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 183
+  size: 325, 838
+  orig: 333, 846
+  offset: 4, 4
+  index: -1
+toufa1
+  rotate: false
+  xy: 833, 765
+  size: 111, 106
+  orig: 119, 114
+  offset: 4, 4
+  index: -1
+xiayanpi1
+  rotate: false
+  xy: 464, 318
+  size: 21, 13
+  orig: 29, 21
+  offset: 4, 4
+  index: -1
+xiayanpi2
+  rotate: false
+  xy: 2, 2
+  size: 21, 17
+  orig: 29, 25
+  offset: 4, 4
+  index: -1
+xiong
+  rotate: false
+  xy: 604, 611
+  size: 148, 80
+  orig: 156, 88
+  offset: 4, 4
+  index: -1
+yanbai1
+  rotate: false
+  xy: 329, 183
+  size: 22, 15
+  orig: 30, 23
+  offset: 4, 4
+  index: -1
+yanbai2
+  rotate: false
+  xy: 314, 166
+  size: 21, 15
+  orig: 29, 23
+  offset: 4, 4
+  index: -1
+yanqiu1
+  rotate: false
+  xy: 754, 680
+  size: 13, 11
+  orig: 21, 19
+  offset: 4, 4
+  index: -1
+yanqiu2
+  rotate: false
+  xy: 604, 597
+  size: 13, 12
+  orig: 21, 20
+  offset: 4, 4
+  index: -1
+yanwu
+  rotate: false
+  xy: 329, 693
+  size: 502, 328
+  orig: 510, 336
+  offset: 4, 4
+  index: -1
+youbianzi
+  rotate: false
+  xy: 512, 357
+  size: 90, 334
+  orig: 98, 342
+  offset: 4, 4
+  index: -1
+youjiao
+  rotate: false
+  xy: 329, 333
+  size: 181, 358
+  orig: 189, 366
+  offset: 4, 4
+  index: -1
+youshou
+  rotate: false
+  xy: 833, 873
+  size: 136, 148
+  orig: 144, 156
+  offset: 4, 4
+  index: -1
+zuobianzi
+  rotate: true
+  xy: 2, 21
+  size: 160, 310
+  orig: 168, 318
+  offset: 4, 4
+  index: -1
+zuoshou
+  rotate: false
+  xy: 329, 200
+  size: 133, 131
+  orig: 141, 139
+  offset: 4, 4
+  index: -1

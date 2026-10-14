@@ -1,0 +1,104 @@
+
+hurt.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sakura_attack/0_00000
+  rotate: true
+  xy: 808, 146
+  size: 107, 178
+  orig: 1200, 600
+  offset: 273, 113
+  index: -1
+images/sakura_attack/0_00001
+  rotate: true
+  xy: 617, 145
+  size: 108, 189
+  orig: 1200, 600
+  offset: 272, 105
+  index: -1
+images/sakura_attack/0_00003
+  rotate: true
+  xy: 439, 128
+  size: 125, 176
+  orig: 1200, 600
+  offset: 256, 107
+  index: -1
+images/sakura_attack/0_00004
+  rotate: false
+  xy: 301, 79
+  size: 136, 174
+  orig: 1200, 600
+  offset: 249, 110
+  index: -1
+images/sakura_attack/0_00006
+  rotate: false
+  xy: 152, 78
+  size: 147, 175
+  orig: 1200, 600
+  offset: 242, 110
+  index: -1
+images/sakura_attack/0_00007
+  rotate: false
+  xy: 2, 78
+  size: 148, 175
+  orig: 1200, 600
+  offset: 240, 110
+  index: -1
+images/sakura_attack/0_00009
+  rotate: true
+  xy: 439, 18
+  size: 108, 168
+  orig: 1200, 600
+  offset: 275, 116
+  index: -1
+images/tsunade_attack/0_00000
+  rotate: true
+  xy: 154, 23
+  size: 53, 151
+  orig: 1200, 600
+  offset: 280, 124
+  index: -1
+images/tsunade_attack/0_00001
+  rotate: true
+  xy: 2, 20
+  size: 56, 150
+  orig: 1200, 600
+  offset: 279, 124
+  index: -1
+images/tsunade_attack/0_00003
+  rotate: true
+  xy: 617, 90
+  size: 53, 144
+  orig: 1200, 600
+  offset: 275, 124
+  index: -1
+images/tsunade_attack/0_00004
+  rotate: true
+  xy: 609, 40
+  size: 48, 139
+  orig: 1200, 600
+  offset: 277, 124
+  index: -1
+images/tsunade_attack/0_00006
+  rotate: true
+  xy: 808, 98
+  size: 46, 140
+  orig: 1200, 600
+  offset: 279, 124
+  index: -1
+images/tsunade_attack/0_00007
+  rotate: true
+  xy: 763, 50
+  size: 46, 139
+  orig: 1200, 600
+  offset: 279, 124
+  index: -1
+images/tsunade_attack/0_00009
+  rotate: true
+  xy: 750, 2
+  size: 46, 139
+  orig: 1200, 600
+  offset: 279, 124
+  index: -1

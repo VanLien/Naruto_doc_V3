@@ -1,0 +1,76 @@
+
+action.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kakashi attack_bullet/0_00000
+  rotate: false
+  xy: 2, 2
+  size: 77, 42
+  orig: 200, 100
+  offset: 59, 29
+  index: -1
+images/kakashi attack_hit/0_00000
+  rotate: true
+  xy: 1128, 275
+  size: 233, 234
+  orig: 400, 400
+  offset: 105, 90
+  index: -1
+images/kakashi attack_hit/0_00001
+  rotate: false
+  xy: 1364, 319
+  size: 210, 189
+  orig: 400, 400
+  offset: 147, 107
+  index: -1
+images/kakashi attack_hit/0_00002
+  rotate: true
+  xy: 882, 283
+  size: 225, 244
+  orig: 400, 400
+  offset: 138, 83
+  index: -1
+images/kakashi attack_hit/0_00003
+  rotate: false
+  xy: 1576, 327
+  size: 205, 181
+  orig: 400, 400
+  offset: 161, 115
+  index: -1
+images/kakashi attack_hit/0_00004
+  rotate: false
+  xy: 2, 249
+  size: 302, 259
+  orig: 400, 400
+  offset: 64, 87
+  index: -1
+images/kakashi attack_hit/0_00005
+  rotate: false
+  xy: 306, 252
+  size: 304, 256
+  orig: 400, 400
+  offset: 57, 90
+  index: -1
+images/kakashi attack_hit/0_00007
+  rotate: false
+  xy: 2, 46
+  size: 288, 201
+  orig: 400, 400
+  offset: 63, 121
+  index: -1
+images/kakashi attack_hit/0_00008
+  rotate: false
+  xy: 612, 300
+  size: 268, 208
+  orig: 400, 400
+  offset: 69, 113
+  index: -1
+images/kakashi attack_hit/0_00009
+  rotate: false
+  xy: 1783, 346
+  size: 166, 162
+  orig: 400, 400
+  offset: 119, 139
+  index: -1

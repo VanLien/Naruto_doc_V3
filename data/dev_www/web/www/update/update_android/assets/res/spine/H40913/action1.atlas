@@ -1,0 +1,307 @@
+
+action1.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kakashi action1/0_00000
+  rotate: true
+  xy: 1031, 164
+  size: 98, 152
+  orig: 600, 400
+  offset: 92, 88
+  index: -1
+images/kakashi action1/0_00001
+  rotate: true
+  xy: 869, 271
+  size: 109, 160
+  orig: 600, 400
+  offset: 87, 89
+  index: -1
+images/kakashi action1/0_00002
+  rotate: true
+  xy: 1753, 346
+  size: 49, 140
+  orig: 600, 400
+  offset: 121, 98
+  index: -1
+images/kakashi action1/0_00003
+  rotate: true
+  xy: 860, 382
+  size: 128, 179
+  orig: 600, 400
+  offset: 87, 92
+  index: -1
+images/kakashi action1/0_00004
+  rotate: true
+  xy: 523, 250
+  size: 117, 174
+  orig: 600, 400
+  offset: 93, 96
+  index: -1
+images/kakashi action1/0_00005
+  rotate: true
+  xy: 1031, 264
+  size: 112, 173
+  orig: 600, 400
+  offset: 104, 98
+  index: -1
+images/kakashi action1/0_00006
+  rotate: true
+  xy: 1397, 385
+  size: 125, 174
+  orig: 600, 400
+  offset: 102, 98
+  index: -1
+images/kakashi action1/0_00007
+  rotate: true
+  xy: 699, 249
+  size: 131, 168
+  orig: 600, 400
+  offset: 97, 98
+  index: -1
+images/kakashi action1/0_00008
+  rotate: true
+  xy: 1041, 378
+  size: 132, 179
+  orig: 600, 400
+  offset: 92, 88
+  index: -1
+images/kakashi action1/0_00009
+  rotate: true
+  xy: 1753, 397
+  size: 113, 184
+  orig: 600, 400
+  offset: 87, 89
+  index: -1
+images/kakashi action1/0_00010
+  rotate: true
+  xy: 1222, 382
+  size: 128, 173
+  orig: 600, 400
+  offset: 87, 98
+  index: -1
+images/kakashi action1/0_00011
+  rotate: true
+  xy: 1573, 390
+  size: 120, 178
+  orig: 600, 400
+  offset: 90, 92
+  index: -1
+images/kakashi action1/0_00012
+  rotate: true
+  xy: 346, 255
+  size: 112, 175
+  orig: 600, 400
+  offset: 104, 96
+  index: -1
+images/kakashi action1/0_00013
+  rotate: false
+  xy: 2, 354
+  size: 342, 156
+  orig: 600, 400
+  offset: 22, 63
+  index: -1
+images/kakashi action1/0_00014
+  rotate: false
+  xy: 2, 191
+  size: 322, 161
+  orig: 600, 400
+  offset: 14, 68
+  index: -1
+images/kakashi action1/0_00015
+  rotate: false
+  xy: 346, 369
+  size: 297, 141
+  orig: 600, 400
+  offset: 22, 75
+  index: -1
+images/kakashi action1/0_00016
+  rotate: false
+  xy: 2, 59
+  size: 286, 130
+  orig: 600, 400
+  offset: 23, 77
+  index: -1
+images/kakashi action1/0_00017
+  rotate: false
+  xy: 520, 114
+  size: 123, 134
+  orig: 600, 400
+  offset: 119, 79
+  index: -1
+images/kakashi action1/0_00018
+  rotate: false
+  xy: 645, 382
+  size: 213, 128
+  orig: 600, 400
+  offset: 53, 84
+  index: -1
+images/kakashi action1/0_00019
+  rotate: false
+  xy: 1185, 118
+  size: 127, 117
+  orig: 600, 400
+  offset: 124, 95
+  index: -1
+images/kakashi action1/0_00020
+  rotate: false
+  xy: 290, 59
+  size: 128, 130
+  orig: 600, 400
+  offset: 102, 98
+  index: -1
+images/kakashi action1/0_00021
+  rotate: false
+  xy: 1314, 97
+  size: 54, 138
+  orig: 600, 400
+  offset: 150, 98
+  index: -1
+images/kakashi action1/0_00022
+  rotate: true
+  xy: 862, 65
+  size: 93, 142
+  orig: 600, 400
+  offset: 128, 95
+  index: -1
+images/kakashi action1/0_00023
+  rotate: true
+  xy: 1573, 334
+  size: 54, 140
+  orig: 600, 400
+  offset: 150, 98
+  index: -1
+images/kakashi action1/0_00024
+  rotate: false
+  xy: 420, 102
+  size: 98, 151
+  orig: 600, 400
+  offset: 127, 88
+  index: -1
+images/kakashi action1/0_00025
+  rotate: true
+  xy: 869, 160
+  size: 109, 160
+  orig: 600, 400
+  offset: 122, 89
+  index: -1
+images/kakashi action1/0_00026
+  rotate: true
+  xy: 1031, 108
+  size: 54, 140
+  orig: 600, 400
+  offset: 150, 98
+  index: -1
+images/kakashi action1/0_00027
+  rotate: true
+  xy: 645, 139
+  size: 108, 146
+  orig: 600, 400
+  offset: 125, 92
+  index: -1
+images/kakashi action1/0_00028
+  rotate: false
+  xy: 1939, 368
+  size: 102, 142
+  orig: 600, 400
+  offset: 128, 96
+  index: -1
+images/kakashi action1/0_00029
+  rotate: true
+  xy: 1006, 52
+  size: 54, 140
+  orig: 600, 400
+  offset: 150, 98
+  index: -1
+images/kakashi action1/0_00030
+  rotate: true
+  xy: 1222, 293
+  size: 87, 140
+  orig: 600, 400
+  offset: 119, 98
+  index: -1
+images/kakashi action1/0_00031
+  rotate: false
+  xy: 793, 108
+  size: 67, 139
+  orig: 600, 400
+  offset: 120, 98
+  index: -1
+images/kakashi action1/0_00032
+  rotate: true
+  xy: 645, 79
+  size: 58, 141
+  orig: 600, 400
+  offset: 120, 98
+  index: -1
+images/obito stand/0_00000
+  rotate: true
+  xy: 1206, 237
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1
+images/obito stand/0_00001
+  rotate: true
+  xy: 1173, 62
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1
+images/obito stand/0_00002
+  rotate: true
+  xy: 1397, 329
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1
+images/obito stand/0_00003
+  rotate: true
+  xy: 1364, 273
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1
+images/obito stand/0_00004
+  rotate: false
+  xy: 1370, 132
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1
+images/obito stand/0_00005
+  rotate: true
+  xy: 2, 2
+  size: 55, 139
+  orig: 600, 400
+  offset: 125, 98
+  index: -1
+images/obito stand/0_00006
+  rotate: true
+  xy: 143, 2
+  size: 55, 139
+  orig: 600, 400
+  offset: 125, 98
+  index: -1
+images/obito stand/0_00007
+  rotate: true
+  xy: 284, 2
+  size: 55, 139
+  orig: 600, 400
+  offset: 125, 98
+  index: -1
+images/obito stand/0_00008
+  rotate: false
+  xy: 1426, 132
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1
+images/obito stand/0_00009
+  rotate: false
+  xy: 1482, 132
+  size: 54, 139
+  orig: 600, 400
+  offset: 126, 98
+  index: -1

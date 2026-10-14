@@ -1,0 +1,286 @@
+
+action.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guanghuan/1/0_00000
+  rotate: false
+  xy: 2, 269
+  size: 300, 119
+  orig: 360, 360
+  offset: 30, 33
+  index: -1
+images/guanghuan/1/0_00001
+  rotate: false
+  xy: 2, 390
+  size: 300, 120
+  orig: 360, 360
+  offset: 30, 33
+  index: -1
+images/guanghuan/1/0_00002
+  rotate: false
+  xy: 304, 391
+  size: 300, 119
+  orig: 360, 360
+  offset: 30, 34
+  index: -1
+images/guanghuan/1/0_00003
+  rotate: false
+  xy: 2, 149
+  size: 300, 118
+  orig: 360, 360
+  offset: 30, 35
+  index: -1
+images/guanghuan/1/0_00004
+  rotate: false
+  xy: 304, 272
+  size: 300, 117
+  orig: 360, 360
+  offset: 30, 36
+  index: -1
+images/guanghuan/1/0_00005
+  rotate: false
+  xy: 2, 31
+  size: 300, 116
+  orig: 360, 360
+  offset: 30, 37
+  index: -1
+images/guanghuan/1/0_00006
+  rotate: false
+  xy: 304, 154
+  size: 300, 116
+  orig: 360, 360
+  offset: 30, 37
+  index: -1
+images/guanghuan/1/0_00007
+  rotate: false
+  xy: 606, 275
+  size: 300, 116
+  orig: 360, 360
+  offset: 30, 37
+  index: -1
+images/guanghuan/1/0_00008
+  rotate: false
+  xy: 908, 394
+  size: 300, 116
+  orig: 360, 360
+  offset: 30, 36
+  index: -1
+images/guanghuan/1/0_00009
+  rotate: false
+  xy: 606, 393
+  size: 300, 117
+  orig: 360, 360
+  offset: 30, 35
+  index: -1
+images/guanghuan/2/0_00000
+  rotate: false
+  xy: 1600, 321
+  size: 161, 76
+  orig: 360, 360
+  offset: 93, 82
+  index: -1
+images/guanghuan/2/0_00001
+  rotate: false
+  xy: 1133, 33
+  size: 170, 79
+  orig: 360, 360
+  offset: 89, 82
+  index: -1
+images/guanghuan/2/0_00002
+  rotate: false
+  xy: 903, 113
+  size: 178, 80
+  orig: 360, 360
+  offset: 86, 83
+  index: -1
+images/guanghuan/2/0_00003
+  rotate: false
+  xy: 1210, 324
+  size: 186, 71
+  orig: 360, 360
+  offset: 83, 84
+  index: -1
+images/guanghuan/2/0_00004
+  rotate: false
+  xy: 1771, 331
+  size: 191, 71
+  orig: 360, 360
+  offset: 81, 85
+  index: -1
+images/guanghuan/2/0_00005
+  rotate: false
+  xy: 1769, 154
+  size: 197, 69
+  orig: 360, 360
+  offset: 79, 85
+  index: -1
+images/guanghuan/2/0_00006
+  rotate: false
+  xy: 1398, 321
+  size: 200, 75
+  orig: 360, 360
+  offset: 79, 83
+  index: -1
+images/guanghuan/2/0_00007
+  rotate: false
+  xy: 1760, 73
+  size: 187, 79
+  orig: 360, 360
+  offset: 92, 82
+  index: -1
+images/guanghuan/2/0_00008
+  rotate: true
+  xy: 1964, 331
+  size: 179, 82
+  orig: 360, 360
+  offset: 90, 82
+  index: -1
+images/guanghuan/2/0_00009
+  rotate: false
+  xy: 973, 28
+  size: 158, 83
+  orig: 360, 360
+  offset: 90, 82
+  index: -1
+images/guanghuan/3/0_00000
+  rotate: false
+  xy: 1393, 217
+  size: 186, 102
+  orig: 360, 360
+  offset: 86, 169
+  index: -1
+images/guanghuan/3/0_00001
+  rotate: false
+  xy: 1581, 217
+  size: 186, 102
+  orig: 360, 360
+  offset: 85, 169
+  index: -1
+images/guanghuan/3/0_00002
+  rotate: false
+  xy: 1205, 218
+  size: 186, 104
+  orig: 360, 360
+  offset: 84, 168
+  index: -1
+images/guanghuan/3/0_00003
+  rotate: false
+  xy: 1771, 404
+  size: 188, 106
+  orig: 360, 360
+  offset: 84, 166
+  index: -1
+images/guanghuan/3/0_00004
+  rotate: true
+  xy: 792, 99
+  size: 174, 109
+  orig: 360, 360
+  offset: 84, 164
+  index: -1
+images/guanghuan/3/0_00005
+  rotate: false
+  xy: 1397, 398
+  size: 185, 112
+  orig: 360, 360
+  offset: 84, 163
+  index: -1
+images/guanghuan/3/0_00006
+  rotate: false
+  xy: 1390, 116
+  size: 187, 99
+  orig: 360, 360
+  offset: 85, 162
+  index: -1
+images/guanghuan/3/0_00007
+  rotate: false
+  xy: 606, 55
+  size: 184, 100
+  orig: 360, 360
+  offset: 88, 161
+  index: -1
+images/guanghuan/3/0_00008
+  rotate: false
+  xy: 1205, 114
+  size: 183, 102
+  orig: 360, 360
+  offset: 89, 160
+  index: -1
+images/guanghuan/3/0_00009
+  rotate: false
+  xy: 1769, 225
+  size: 183, 104
+  orig: 360, 360
+  offset: 89, 159
+  index: -1
+images/guanghuan/3/0_00010
+  rotate: true
+  xy: 1968, 149
+  size: 180, 78
+  orig: 360, 360
+  offset: 90, 159
+  index: -1
+images/guanghuan/3/0_00011
+  rotate: false
+  xy: 908, 195
+  size: 181, 80
+  orig: 360, 360
+  offset: 89, 159
+  index: -1
+images/guanghuan/3/0_00012
+  rotate: false
+  xy: 792, 2
+  size: 179, 95
+  orig: 360, 360
+  offset: 88, 157
+  index: -1
+images/guanghuan/3/0_00013
+  rotate: false
+  xy: 1579, 109
+  size: 179, 106
+  orig: 360, 360
+  offset: 87, 156
+  index: -1
+images/guanghuan/3/0_00014
+  rotate: true
+  xy: 1094, 214
+  size: 178, 109
+  orig: 360, 360
+  offset: 87, 155
+  index: -1
+images/guanghuan/3/0_00015
+  rotate: false
+  xy: 1584, 399
+  size: 185, 111
+  orig: 360, 360
+  offset: 86, 154
+  index: -1
+images/guanghuan/3/0_00016
+  rotate: false
+  xy: 1210, 397
+  size: 185, 113
+  orig: 360, 360
+  offset: 87, 153
+  index: -1
+images/guanghuan/3/0_00017
+  rotate: false
+  xy: 908, 277
+  size: 184, 115
+  orig: 360, 360
+  offset: 88, 153
+  index: -1
+images/guanghuan/3/0_00018
+  rotate: false
+  xy: 606, 157
+  size: 184, 116
+  orig: 360, 360
+  offset: 88, 153
+  index: -1
+images/guanghuan/3/0_00019
+  rotate: false
+  xy: 304, 34
+  size: 184, 118
+  orig: 360, 360
+  offset: 87, 152
+  index: -1

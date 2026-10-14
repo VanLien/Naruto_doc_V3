@@ -1,0 +1,118 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action2_tx/0_00000
+  rotate: false
+  xy: 622, 171
+  size: 80, 122
+  orig: 1400, 840
+  offset: 660, 359
+  index: -1
+action2_tx/0_00001
+  rotate: false
+  xy: 1327, 88
+  size: 79, 122
+  orig: 1400, 840
+  offset: 661, 359
+  index: -1
+action2_tx/0_00025
+  rotate: false
+  xy: 1566, 1048
+  size: 268, 255
+  orig: 1400, 840
+  offset: 496, 380
+  index: -1
+action2_tx/0_00026
+  rotate: false
+  xy: 1566, 797
+  size: 257, 250
+  orig: 1400, 840
+  offset: 498, 372
+  index: -1
+action2_tx/0_00027
+  rotate: true
+  xy: 1327, 211
+  size: 280, 216
+  orig: 1400, 840
+  offset: 519, 371
+  index: -1
+action2_tx/0_00028
+  rotate: false
+  xy: 1, 1
+  size: 319, 292
+  orig: 1400, 840
+  offset: 545, 359
+  index: -1
+action2_tx/0_00029
+  rotate: true
+  xy: 321, 9
+  size: 284, 300
+  orig: 1400, 840
+  offset: 564, 354
+  index: -1
+action2_tx/0_00030
+  rotate: false
+  xy: 1638, 1676
+  size: 380, 371
+  orig: 1400, 840
+  offset: 482, 351
+  index: -1
+action2_tx/0_00031
+  rotate: false
+  xy: 1638, 1304
+  size: 380, 371
+  orig: 1400, 840
+  offset: 482, 351
+  index: -1
+action2_tx/0_00034
+  rotate: true
+  xy: 825, 30
+  size: 461, 501
+  orig: 1400, 840
+  offset: 405, 245
+  index: -1
+action2_tx/0_00035
+  rotate: false
+  xy: 822, 1448
+  size: 815, 599
+  orig: 1400, 840
+  offset: 332, 193
+  index: -1
+action2_tx/0_00036
+  rotate: false
+  xy: 1, 1426
+  size: 820, 621
+  orig: 1400, 840
+  offset: 340, 181
+  index: -1
+action2_tx/0_00037
+  rotate: false
+  xy: 1, 818
+  size: 808, 607
+  orig: 1400, 840
+  offset: 358, 188
+  index: -1
+action2_tx/0_00038
+  rotate: false
+  xy: 1, 294
+  size: 823, 523
+  orig: 1400, 840
+  offset: 354, 190
+  index: -1
+action2_tx/0_00039
+  rotate: false
+  xy: 825, 492
+  size: 721, 467
+  orig: 1400, 840
+  offset: 470, 193
+  index: -1
+action2_tx/0_00040
+  rotate: false
+  xy: 822, 960
+  size: 743, 487
+  orig: 1400, 840
+  offset: 465, 182
+  index: -1

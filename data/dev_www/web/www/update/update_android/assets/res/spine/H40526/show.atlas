@@ -1,0 +1,425 @@
+
+show.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/show/sa
+  rotate: true
+  xy: 1131, 12
+  size: 176, 253
+  orig: 717, 717
+  offset: 395, 125
+  index: -1
+images/show/sakura/0_00000
+  rotate: false
+  xy: 909, 1587
+  size: 233, 459
+  orig: 717, 717
+  offset: 346, 113
+  index: -1
+images/show/sakura/0_00001
+  rotate: false
+  xy: 679, 173
+  size: 233, 458
+  orig: 717, 717
+  offset: 347, 113
+  index: -1
+images/show/sakura/0_00002
+  rotate: false
+  xy: 903, 648
+  size: 233, 457
+  orig: 717, 717
+  offset: 347, 113
+  index: -1
+images/show/sakura/0_00003
+  rotate: false
+  xy: 914, 190
+  size: 235, 456
+  orig: 717, 717
+  offset: 347, 113
+  index: -1
+images/show/sakura/0_00004
+  rotate: false
+  xy: 1144, 1591
+  size: 235, 455
+  orig: 717, 717
+  offset: 347, 113
+  index: -1
+images/show/sakura/0_00005
+  rotate: false
+  xy: 1138, 673
+  size: 235, 454
+  orig: 717, 717
+  offset: 347, 113
+  index: -1
+images/show/sakura/0_00006
+  rotate: false
+  xy: 1381, 1594
+  size: 236, 452
+  orig: 717, 717
+  offset: 346, 115
+  index: -1
+images/show/sakura/0_00007
+  rotate: false
+  xy: 1151, 219
+  size: 234, 452
+  orig: 717, 717
+  offset: 347, 116
+  index: -1
+images/show/sakura/0_00008
+  rotate: false
+  xy: 1149, 1136
+  size: 233, 453
+  orig: 717, 717
+  offset: 347, 116
+  index: -1
+images/show/sakura/0_00009
+  rotate: false
+  xy: 915, 1129
+  size: 232, 456
+  orig: 717, 717
+  offset: 348, 115
+  index: -1
+images/show/sakura/1_00001
+  rotate: false
+  xy: 683, 1107
+  size: 230, 467
+  orig: 717, 717
+  offset: 345, 113
+  index: -1
+images/show/sakura/1_00002
+  rotate: false
+  xy: 2, 1567
+  size: 227, 479
+  orig: 717, 717
+  offset: 342, 113
+  index: -1
+images/show/sakura/1_00003
+  rotate: true
+  xy: 1587, 1012
+  size: 223, 445
+  orig: 717, 717
+  offset: 340, 114
+  index: -1
+images/show/sakura/1_00004
+  rotate: true
+  xy: 1619, 1819
+  size: 227, 421
+  orig: 717, 717
+  offset: 335, 114
+  index: -1
+images/show/sakura/1_00006
+  rotate: false
+  xy: 1386, 1237
+  size: 231, 355
+  orig: 717, 717
+  offset: 349, 109
+  index: -1
+images/show/sakura/1_00007
+  rotate: true
+  xy: 1386, 3
+  size: 214, 277
+  orig: 717, 717
+  offset: 383, 159
+  index: -1
+images/show/sakura/1_00008
+  rotate: true
+  xy: 881, 5
+  size: 166, 248
+  orig: 717, 717
+  offset: 393, 184
+  index: -1
+images/show/sakura/1_00009
+  rotate: false
+  xy: 1663, 241
+  size: 146, 233
+  orig: 717, 717
+  offset: 401, 186
+  index: -1
+images/show/sakura/1_00010
+  rotate: true
+  xy: 223, 3
+  size: 140, 216
+  orig: 717, 717
+  offset: 406, 190
+  index: -1
+images/show/sakura/1_00011
+  rotate: true
+  xy: 2, 2
+  size: 141, 219
+  orig: 717, 717
+  offset: 411, 186
+  index: -1
+images/show/sakura/1_00012
+  rotate: true
+  xy: 441, 8
+  size: 135, 218
+  orig: 717, 717
+  offset: 418, 184
+  index: -1
+images/show/sakura/1_00013
+  rotate: true
+  xy: 661, 11
+  size: 135, 218
+  orig: 717, 717
+  offset: 418, 184
+  index: -1
+images/show/sakura/2_00000
+  rotate: true
+  xy: 1387, 224
+  size: 135, 218
+  orig: 717, 717
+  offset: 418, 184
+  index: -1
+images/show/tsu
+  rotate: false
+  xy: 1811, 210
+  size: 221, 264
+  orig: 717, 717
+  offset: 177, 143
+  index: -1
+images/show/tsunade/0_00000
+  rotate: false
+  xy: 678, 633
+  size: 223, 469
+  orig: 717, 717
+  offset: 250, 118
+  index: -1
+images/show/tsunade/0_00001
+  rotate: false
+  xy: 459, 1104
+  size: 222, 470
+  orig: 717, 717
+  offset: 251, 117
+  index: -1
+images/show/tsunade/0_00002
+  rotate: false
+  xy: 2, 619
+  size: 224, 472
+  orig: 717, 717
+  offset: 251, 116
+  index: -1
+images/show/tsunade/0_00003
+  rotate: false
+  xy: 2, 1093
+  size: 226, 472
+  orig: 717, 717
+  offset: 251, 115
+  index: -1
+images/show/tsunade/0_00004
+  rotate: false
+  xy: 230, 1094
+  size: 227, 471
+  orig: 717, 717
+  offset: 250, 116
+  index: -1
+images/show/tsunade/0_00005
+  rotate: false
+  xy: 2, 145
+  size: 223, 472
+  orig: 717, 717
+  offset: 250, 116
+  index: -1
+images/show/tsunade/0_00006
+  rotate: false
+  xy: 227, 145
+  size: 223, 472
+  orig: 717, 717
+  offset: 250, 116
+  index: -1
+images/show/tsunade/0_00007
+  rotate: false
+  xy: 231, 1575
+  size: 223, 471
+  orig: 717, 717
+  offset: 250, 116
+  index: -1
+images/show/tsunade/0_00008
+  rotate: false
+  xy: 452, 148
+  size: 225, 471
+  orig: 717, 717
+  offset: 250, 116
+  index: -1
+images/show/tsunade/0_00009
+  rotate: false
+  xy: 449, 621
+  size: 227, 471
+  orig: 717, 717
+  offset: 250, 116
+  index: -1
+images/show/tsunade/1_00001
+  rotate: false
+  xy: 456, 1576
+  size: 228, 470
+  orig: 717, 717
+  offset: 247, 117
+  index: -1
+images/show/tsunade/1_00002
+  rotate: false
+  xy: 228, 619
+  size: 219, 472
+  orig: 717, 717
+  offset: 242, 116
+  index: -1
+images/show/tsunade/1_00003
+  rotate: false
+  xy: 686, 1582
+  size: 221, 464
+  orig: 717, 717
+  offset: 243, 116
+  index: -1
+images/show/tsunade/1_00004
+  rotate: false
+  xy: 1375, 686
+  size: 210, 448
+  orig: 717, 717
+  offset: 227, 114
+  index: -1
+images/show/tsunade/1_00005
+  rotate: true
+  xy: 1587, 789
+  size: 221, 429
+  orig: 717, 717
+  offset: 211, 116
+  index: -1
+images/show/tsunade/1_00006
+  rotate: true
+  xy: 1619, 1605
+  size: 212, 418
+  orig: 717, 717
+  offset: 195, 115
+  index: -1
+images/show/tsunade/1_00007
+  rotate: true
+  xy: 1619, 1366
+  size: 237, 407
+  orig: 717, 717
+  offset: 160, 120
+  index: -1
+images/show/tsunade/1_00008
+  rotate: true
+  xy: 1665, 476
+  size: 311, 342
+  orig: 717, 717
+  offset: 100, 178
+  index: -1
+images/show/tsunade/1_00010
+  rotate: true
+  xy: 1387, 361
+  size: 323, 274
+  orig: 717, 717
+  offset: 85, 213
+  index: -1
+
+show2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/show/sakura/1_00005
+  rotate: true
+  xy: 1310, 405
+  size: 197, 394
+  orig: 717, 717
+  offset: 367, 113
+  index: -1
+images/show/tsunade/1_00009
+  rotate: false
+  xy: 983, 289
+  size: 301, 312
+  orig: 717, 717
+  offset: 94, 200
+  index: -1
+images/show/tsunade/1_00011
+  rotate: false
+  xy: 983, 2
+  size: 325, 285
+  orig: 717, 717
+  offset: 88, 202
+  index: -1
+images/show/tsunade/1_00012
+  rotate: false
+  xy: 1310, 604
+  size: 325, 288
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/1_00013
+  rotate: false
+  xy: 656, 603
+  size: 325, 289
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00000
+  rotate: false
+  xy: 329, 19
+  size: 325, 289
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00001
+  rotate: false
+  xy: 2, 602
+  size: 325, 290
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00002
+  rotate: false
+  xy: 2, 310
+  size: 325, 290
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00003
+  rotate: false
+  xy: 329, 602
+  size: 325, 290
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00004
+  rotate: false
+  xy: 2, 18
+  size: 325, 290
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00005
+  rotate: false
+  xy: 329, 310
+  size: 325, 290
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00006
+  rotate: false
+  xy: 656, 312
+  size: 325, 289
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00007
+  rotate: false
+  xy: 983, 603
+  size: 325, 289
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00008
+  rotate: false
+  xy: 656, 21
+  size: 325, 289
+  orig: 717, 717
+  offset: 87, 198
+  index: -1
+images/show/tsunade/2_00009
+  rotate: false
+  xy: 1637, 604
+  size: 325, 288
+  orig: 717, 717
+  offset: 87, 198
+  index: -1

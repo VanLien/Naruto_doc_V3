@@ -1,0 +1,138 @@
+
+action.png
+size: 2047,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill2/0_00000
+  rotate: true
+  xy: 2, 2
+  size: 31, 34
+  orig: 800, 800
+  offset: 383, 223
+  index: -1
+skill2/0_00012
+  rotate: true
+  xy: 1637, 354
+  size: 471, 408
+  orig: 800, 800
+  offset: 145, 145
+  index: -1
+skill2/0_00024
+  rotate: false
+  xy: 1148, 425
+  size: 487, 400
+  orig: 800, 800
+  offset: 142, 191
+  index: -1
+skill2/0_00028
+  rotate: false
+  xy: 1076, 11
+  size: 487, 412
+  orig: 800, 800
+  offset: 142, 190
+  index: -1
+skill2/0_00032
+  rotate: false
+  xy: 578, 72
+  size: 496, 416
+  orig: 800, 800
+  offset: 137, 183
+  index: -1
+skill2/0_00034
+  rotate: false
+  xy: 643, 490
+  size: 503, 415
+  orig: 800, 800
+  offset: 132, 184
+  index: -1
+skill2/1/tsgj0001
+  rotate: false
+  xy: 1565, 137
+  size: 472, 215
+  orig: 750, 789
+  offset: 230, 203
+  index: -1
+skill2/1/tsgj0002
+  rotate: true
+  xy: 2, 35
+  size: 532, 574
+  orig: 750, 789
+  offset: 203, 10
+  index: -1
+skill2/1/tsgj0003
+  rotate: true
+  xy: 679, 907
+  size: 571, 656
+  orig: 750, 789
+  offset: 166, 0
+  index: -1
+skill2/1/tsgj0004
+  rotate: true
+  xy: 1337, 827
+  size: 604, 656
+  orig: 750, 789
+  offset: 139, 0
+  index: -1
+skill2/1/tsgj0005
+  rotate: true
+  xy: 1409, 1433
+  size: 613, 634
+  orig: 750, 789
+  offset: 137, 15
+  index: -1
+skill2/1/tsgj0006
+  rotate: true
+  xy: 679, 1480
+  size: 566, 728
+  orig: 750, 789
+  offset: 121, 16
+  index: -1
+skill2/1/tsgj0007
+  rotate: false
+  xy: 2, 569
+  size: 639, 751
+  orig: 750, 789
+  offset: 44, 38
+  index: -1
+skill2/1/tsgj0008
+  rotate: false
+  xy: 2, 1322
+  size: 675, 724
+  orig: 750, 789
+  offset: 14, 65
+  index: -1
+
+action2.png
+size: 1644,412
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill2/0_00004
+  rotate: true
+  xy: 1331, 45
+  size: 365, 311
+  orig: 800, 800
+  offset: 182, 185
+  index: -1
+skill2/0_00008
+  rotate: false
+  xy: 958, 32
+  size: 371, 378
+  orig: 800, 800
+  offset: 183, 143
+  index: -1
+skill2/0_00016
+  rotate: false
+  xy: 2, 2
+  size: 478, 408
+  orig: 800, 800
+  offset: 143, 162
+  index: -1
+skill2/0_00020
+  rotate: false
+  xy: 482, 13
+  size: 474, 397
+  orig: 800, 800
+  offset: 144, 183
+  index: -1

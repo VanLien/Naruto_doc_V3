@@ -1,0 +1,90 @@
+
+action.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kakashi action1_hit/0_00000
+  rotate: true
+  xy: 753, 166
+  size: 150, 84
+  orig: 600, 400
+  offset: 33, 160
+  index: -1
+images/kakashi action1_hit/0_00001
+  rotate: false
+  xy: 2, 2
+  size: 255, 111
+  orig: 600, 400
+  offset: 42, 149
+  index: -1
+images/kakashi action1_hit/0_00002
+  rotate: false
+  xy: 1436, 343
+  size: 277, 164
+  orig: 600, 400
+  offset: 42, 135
+  index: -1
+images/kakashi action1_hit/0_00003
+  rotate: false
+  xy: 1715, 340
+  size: 270, 167
+  orig: 600, 400
+  offset: 51, 133
+  index: -1
+images/kakashi action1_hit/0_00004
+  rotate: false
+  xy: 2, 115
+  size: 310, 192
+  orig: 600, 400
+  offset: 44, 119
+  index: -1
+images/kakashi action1_hit/0_00005
+  rotate: false
+  xy: 2, 309
+  size: 317, 198
+  orig: 600, 400
+  offset: 48, 115
+  index: -1
+images/kakashi action1_hit/0_00006
+  rotate: false
+  xy: 1159, 329
+  size: 275, 178
+  orig: 600, 400
+  offset: 52, 139
+  index: -1
+images/kakashi action1_hit/0_00007
+  rotate: false
+  xy: 321, 307
+  size: 275, 200
+  orig: 600, 400
+  offset: 61, 119
+  index: -1
+images/kakashi action1_hit/0_00008
+  rotate: false
+  xy: 598, 318
+  size: 278, 189
+  orig: 600, 400
+  offset: 68, 130
+  index: -1
+images/kakashi action1_hit/0_00009
+  rotate: false
+  xy: 878, 323
+  size: 279, 184
+  orig: 600, 400
+  offset: 78, 133
+  index: -1
+images/kakashi action1_hit/0_00010
+  rotate: false
+  xy: 314, 98
+  size: 253, 207
+  orig: 600, 400
+  offset: 105, 115
+  index: -1
+images/kakashi action1_hit/0_00011
+  rotate: true
+  xy: 569, 104
+  size: 201, 182
+  orig: 600, 400
+  offset: 162, 139
+  index: -1

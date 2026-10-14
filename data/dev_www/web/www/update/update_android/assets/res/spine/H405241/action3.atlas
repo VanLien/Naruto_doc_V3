@@ -1,0 +1,166 @@
+
+action3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+madara action2/0_00000
+  rotate: false
+  xy: 1946, 1839
+  size: 95, 194
+  orig: 1500, 800
+  offset: 531, 296
+  index: -1
+madara action2/0_00001
+  rotate: false
+  xy: 1939, 1250
+  size: 101, 192
+  orig: 1500, 800
+  offset: 529, 294
+  index: -1
+madara action2/0_00003
+  rotate: false
+  xy: 1946, 1642
+  size: 94, 195
+  orig: 1500, 800
+  offset: 536, 295
+  index: -1
+madara action2/0_00004
+  rotate: false
+  xy: 1946, 1444
+  size: 89, 196
+  orig: 1500, 800
+  offset: 539, 295
+  index: -1
+madara action2/0_00005
+  rotate: true
+  xy: 1812, 405
+  size: 249, 197
+  orig: 1500, 800
+  offset: 539, 294
+  index: -1
+madara action2/0_00006
+  rotate: true
+  xy: 1812, 656
+  size: 326, 231
+  orig: 1500, 800
+  offset: 539, 261
+  index: -1
+madara action2/0_00010
+  rotate: false
+  xy: 630, 637
+  size: 589, 345
+  orig: 1500, 800
+  offset: 530, 146
+  index: -1
+madara action2/0_00011
+  rotate: true
+  xy: 390, 2
+  size: 592, 343
+  orig: 1500, 800
+  offset: 527, 144
+  index: -1
+madara action2/0_00012
+  rotate: false
+  xy: 2, 1154
+  size: 627, 342
+  orig: 1500, 800
+  offset: 492, 147
+  index: -1
+madara action2/0_00013
+  rotate: false
+  xy: 1298, 1534
+  size: 646, 499
+  orig: 1500, 800
+  offset: 473, 138
+  index: -1
+madara action2/0_00014
+  rotate: false
+  xy: 2, 1498
+  size: 646, 535
+  orig: 1500, 800
+  offset: 473, 117
+  index: -1
+madara action2/0_00015
+  rotate: false
+  xy: 2, 596
+  size: 626, 556
+  orig: 1500, 800
+  offset: 493, 108
+  index: -1
+madara action2/0_00016
+  rotate: false
+  xy: 1298, 984
+  size: 639, 548
+  orig: 1500, 800
+  offset: 480, 111
+  index: -1
+madara action2/0_00017
+  rotate: false
+  xy: 650, 1520
+  size: 646, 513
+  orig: 1500, 800
+  offset: 473, 134
+  index: -1
+madara action2/0_00018
+  rotate: false
+  xy: 650, 986
+  size: 637, 532
+  orig: 1500, 800
+  offset: 482, 131
+  index: -1
+madara action2/0_00019
+  rotate: true
+  xy: 735, 18
+  size: 617, 497
+  orig: 1500, 800
+  offset: 502, 146
+  index: -1
+madara action2/0_00020
+  rotate: true
+  xy: 1234, 50
+  size: 589, 491
+  orig: 1500, 800
+  offset: 530, 144
+  index: -1
+madara action2/0_00021
+  rotate: true
+  xy: 2, 2
+  size: 592, 386
+  orig: 1500, 800
+  offset: 527, 205
+  index: -1
+madara action2/0_00022
+  rotate: false
+  xy: 1221, 641
+  size: 589, 341
+  orig: 1500, 800
+  offset: 530, 217
+  index: -1
+
+action32.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+madara action2/0_00007
+  rotate: false
+  xy: 1166, 77
+  size: 428, 261
+  orig: 1500, 800
+  offset: 543, 233
+  index: -1
+madara action2/0_00008
+  rotate: false
+  xy: 587, 8
+  size: 577, 330
+  orig: 1500, 800
+  offset: 542, 153
+  index: -1
+madara action2/0_00009
+  rotate: false
+  xy: 2, 2
+  size: 583, 336
+  orig: 1500, 800
+  offset: 536, 151
+  index: -1

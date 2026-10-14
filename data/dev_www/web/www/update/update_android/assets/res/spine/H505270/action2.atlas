@@ -1,0 +1,69 @@
+
+action2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action2/rw/renwu1_00
+  rotate: true
+  xy: 0, 11
+  size: 236, 255
+  orig: 512, 512
+  offset: 118, 181
+  index: -1
+action2/rw/renwu1_01
+  rotate: true
+  xy: 1301, 286
+  size: 226, 250
+  orig: 512, 512
+  offset: 123, 181
+  index: -1
+action2/rw/renwu1_02
+  rotate: true
+  xy: 1047, 279
+  size: 233, 254
+  orig: 512, 512
+  offset: 117, 179
+  index: -1
+action2/rw/renwu1_03
+  rotate: true
+  xy: 259, 264
+  size: 248, 266
+  orig: 512, 512
+  offset: 113, 163
+  index: -1
+action2/rw/renwu1_04
+  rotate: false
+  xy: 0, 247
+  size: 259, 265
+  orig: 512, 512
+  offset: 106, 159
+  index: -1
+action2/rw/renwu1_05
+  rotate: false
+  xy: 787, 266
+  size: 260, 246
+  orig: 512, 512
+  offset: 109, 151
+  index: -1
+action2/rw/renwu1_06
+  rotate: false
+  xy: 525, 264
+  size: 262, 248
+  orig: 512, 512
+  offset: 107, 149
+  index: -1
+action2/rw/renwu1_07
+  rotate: false
+  xy: 507, 16
+  size: 262, 248
+  orig: 512, 512
+  offset: 107, 149
+  index: -1
+action2/rw/renwu1_08
+  rotate: true
+  xy: 259, 0
+  size: 264, 248
+  orig: 512, 512
+  offset: 105, 149
+  index: -1

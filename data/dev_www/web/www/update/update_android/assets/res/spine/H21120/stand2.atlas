@@ -1,0 +1,69 @@
+
+stand2.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tianzhaomao/1/skeleton-animation_0
+  rotate: false
+  xy: 2, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_12
+  rotate: false
+  xy: 575, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_16
+  rotate: false
+  xy: 766, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_20
+  rotate: false
+  xy: 957, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_24
+  rotate: false
+  xy: 1148, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_28
+  rotate: false
+  xy: 1339, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_32
+  rotate: false
+  xy: 1530, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_4
+  rotate: false
+  xy: 193, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1
+tianzhaomao/1/skeleton-animation_8
+  rotate: false
+  xy: 384, 2
+  size: 189, 174
+  orig: 189, 174
+  offset: 0, 0
+  index: -1

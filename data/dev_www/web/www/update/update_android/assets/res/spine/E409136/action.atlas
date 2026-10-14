@@ -1,0 +1,55 @@
+
+action.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kakashi action2_hit/0_00000
+  rotate: false
+  xy: 2, 176
+  size: 254, 327
+  orig: 800, 800
+  offset: 315, 220
+  index: -1
+images/kakashi action2_hit/0_00001
+  rotate: true
+  xy: 839, 253
+  size: 250, 317
+  orig: 800, 800
+  offset: 347, 226
+  index: -1
+images/kakashi action2_hit/0_00002
+  rotate: false
+  xy: 258, 180
+  size: 253, 323
+  orig: 800, 800
+  offset: 350, 223
+  index: -1
+images/kakashi action2_hit/0_00003
+  rotate: true
+  xy: 1158, 249
+  size: 254, 316
+  orig: 800, 800
+  offset: 359, 230
+  index: -1
+images/kakashi action2_hit/0_00004
+  rotate: true
+  xy: 513, 252
+  size: 251, 324
+  orig: 800, 800
+  offset: 366, 216
+  index: -1
+images/kakashi action2_hit/0_00005
+  rotate: true
+  xy: 1476, 278
+  size: 225, 341
+  orig: 800, 800
+  offset: 384, 202
+  index: -1
+images/kakashi action2_hit/0_00006
+  rotate: true
+  xy: 2, 2
+  size: 172, 240
+  orig: 800, 800
+  offset: 428, 245
+  index: -1

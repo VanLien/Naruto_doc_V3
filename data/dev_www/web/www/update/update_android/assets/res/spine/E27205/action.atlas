@@ -1,0 +1,111 @@
+
+action.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 2, 2
+  size: 154, 60
+  orig: 154, 60
+  offset: 0, 0
+  index: -1
+arms
+  rotate: false
+  xy: 2, 279
+  size: 409, 146
+  orig: 409, 146
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 427
+  size: 518, 548
+  orig: 518, 548
+  offset: 0, 0
+  index: -1
+clothes
+  rotate: true
+  xy: 241, 95
+  size: 182, 158
+  orig: 182, 158
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 522, 740
+  size: 283, 235
+  orig: 283, 235
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 413, 275
+  size: 61, 55
+  orig: 61, 55
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 522, 581
+  size: 227, 157
+  orig: 227, 157
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 64
+  size: 237, 213
+  orig: 237, 213
+  offset: 0, 0
+  index: -1
+head2
+  rotate: true
+  xy: 807, 737
+  size: 238, 215
+  orig: 238, 215
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 413, 332
+  size: 77, 93
+  orig: 77, 93
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 522, 431
+  size: 63, 80
+  orig: 63, 80
+  offset: 0, 0
+  index: -1
+man arm L
+  rotate: false
+  xy: 522, 513
+  size: 89, 66
+  orig: 89, 66
+  offset: 0, 0
+  index: -1
+man hand L
+  rotate: false
+  xy: 158, 2
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+man hand R
+  rotate: false
+  xy: 613, 520
+  size: 90, 59
+  orig: 90, 59
+  offset: 0, 0
+  index: -1
+tongue
+  rotate: false
+  xy: 751, 678
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1

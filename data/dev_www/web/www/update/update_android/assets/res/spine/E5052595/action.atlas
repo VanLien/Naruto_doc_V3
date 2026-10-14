@@ -1,0 +1,48 @@
+
+action.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+E5052595/zddj_00000
+  rotate: false
+  xy: 175, 89
+  size: 84, 152
+  orig: 495, 440
+  offset: 53, 36
+  index: -1
+E5052595/zddj_00001
+  rotate: false
+  xy: 261, 89
+  size: 84, 152
+  orig: 495, 440
+  offset: 53, 36
+  index: -1
+E5052595/zddj_00002
+  rotate: false
+  xy: 2, 88
+  size: 85, 153
+  orig: 495, 440
+  offset: 53, 36
+  index: -1
+E5052595/zddj_00003
+  rotate: false
+  xy: 89, 88
+  size: 84, 153
+  orig: 495, 440
+  offset: 53, 36
+  index: -1
+E5052595/zddj_00004
+  rotate: true
+  xy: 2, 2
+  size: 84, 153
+  orig: 495, 440
+  offset: 53, 36
+  index: -1
+E5052595/zddj_00005
+  rotate: false
+  xy: 347, 89
+  size: 84, 152
+  orig: 495, 440
+  offset: 53, 36
+  index: -1

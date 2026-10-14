@@ -1,0 +1,13 @@
+
+action.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/tx_xingguang_jump_9005
+  rotate: false
+  xy: 2, 2
+  size: 234, 234
+  orig: 256, 256
+  offset: 11, 11
+  index: -1

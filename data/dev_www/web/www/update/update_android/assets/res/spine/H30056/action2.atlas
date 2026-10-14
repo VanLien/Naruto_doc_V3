@@ -1,0 +1,132 @@
+
+action2.png
+size: 2002,734
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack/1
+  rotate: false
+  xy: 1854, 591
+  size: 146, 141
+  orig: 600, 350
+  offset: 188, 69
+  index: -1
+attack/10
+  rotate: true
+  xy: 277, 186
+  size: 546, 303
+  orig: 600, 350
+  offset: 19, 9
+  index: -1
+attack/11
+  rotate: true
+  xy: 1474, 310
+  size: 422, 278
+  orig: 600, 350
+  offset: 70, 36
+  index: -1
+attack/12
+  rotate: true
+  xy: 884, 309
+  size: 423, 289
+  orig: 600, 350
+  offset: 68, 36
+  index: -1
+attack/13
+  rotate: true
+  xy: 1175, 310
+  size: 422, 297
+  orig: 600, 350
+  offset: 69, 36
+  index: -1
+attack/14
+  rotate: false
+  xy: 1432, 6
+  size: 420, 302
+  orig: 600, 350
+  offset: 70, 36
+  index: -1
+attack/15
+  rotate: false
+  xy: 1010, 3
+  size: 420, 304
+  orig: 600, 350
+  offset: 70, 37
+  index: -1
+attack/16
+  rotate: false
+  xy: 283, 15
+  size: 418, 169
+  orig: 600, 350
+  offset: 71, 37
+  index: -1
+attack/2
+  rotate: true
+  xy: 1854, 3
+  size: 149, 142
+  orig: 600, 350
+  offset: 188, 68
+  index: -1
+attack/3
+  rotate: true
+  xy: 2, 2
+  size: 153, 137
+  orig: 600, 350
+  offset: 186, 73
+  index: -1
+attack/4
+  rotate: true
+  xy: 862, 42
+  size: 155, 146
+  orig: 600, 350
+  offset: 184, 69
+  index: -1
+attack/5
+  rotate: true
+  xy: 141, 4
+  size: 151, 140
+  orig: 600, 350
+  offset: 186, 76
+  index: -1
+attack/5_1
+  rotate: false
+  xy: 703, 38
+  size: 157, 159
+  orig: 600, 350
+  offset: 183, 67
+  index: -1
+attack/6
+  rotate: false
+  xy: 1854, 449
+  size: 145, 140
+  orig: 600, 350
+  offset: 189, 75
+  index: -1
+attack/7
+  rotate: false
+  xy: 1754, 311
+  size: 143, 136
+  orig: 600, 350
+  offset: 190, 76
+  index: -1
+attack/7_1
+  rotate: false
+  xy: 1854, 154
+  size: 143, 155
+  orig: 600, 350
+  offset: 190, 67
+  index: -1
+attack/8
+  rotate: true
+  xy: 582, 199
+  size: 533, 300
+  orig: 600, 350
+  offset: 26, 10
+  index: -1
+attack/9
+  rotate: true
+  xy: 2, 157
+  size: 575, 273
+  orig: 600, 350
+  offset: 8, 7
+  index: -1

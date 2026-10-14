@@ -1,0 +1,54 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/bg_new/background_up
+  rotate: true
+  xy: 1203, 765
+  size: 1200, 555
+  orig: 1200, 555
+  offset: 0, 0
+  index: -1
+image/bg_new/bg_red
+  rotate: false
+  xy: 2, 685
+  size: 1199, 1280
+  orig: 1494, 1280
+  offset: 179, 0
+  index: -1
+image/bg_new/snow_l
+  rotate: true
+  xy: 1760, 810
+  size: 1155, 280
+  orig: 1155, 280
+  offset: 0, 0
+  index: -1
+image/bg_new/snow_s
+  rotate: false
+  xy: 2, 2
+  size: 1160, 681
+  orig: 1160, 681
+  offset: 0, 0
+  index: -1
+
+action2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/bg_new/background_down
+  rotate: false
+  xy: 2, 545
+  size: 1352, 418
+  orig: 1352, 418
+  offset: 0, 0
+  index: -1
+image/bg_new/tree_2
+  rotate: false
+  xy: 2, 2
+  size: 1200, 541
+  orig: 1200, 541
+  offset: 0, 0
+  index: -1

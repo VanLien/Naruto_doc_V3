@@ -1,0 +1,55 @@
+
+action.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L arm 
+  rotate: true
+  xy: 2, 16
+  size: 33, 195
+  orig: 33, 195
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: true
+  xy: 357, 71
+  size: 69, 124
+  orig: 69, 124
+  offset: 0, 0
+  index: -1
+arms
+  rotate: true
+  xy: 2, 51
+  size: 195, 353
+  orig: 195, 353
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 357, 142
+  size: 104, 216
+  orig: 104, 216
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 2
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 678, 192
+  size: 88, 54
+  orig: 88, 54
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 575, 146
+  size: 101, 100
+  orig: 101, 100
+  offset: 0, 0
+  index: -1

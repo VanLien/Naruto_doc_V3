@@ -1,0 +1,146 @@
+
+action.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff1/0_00000
+  rotate: false
+  xy: 2, 95
+  size: 193, 159
+  orig: 300, 300
+  offset: 55, 70
+  index: -1
+buff1/0_00001
+  rotate: false
+  xy: 581, 100
+  size: 189, 154
+  orig: 300, 300
+  offset: 57, 76
+  index: -1
+buff1/0_00002
+  rotate: false
+  xy: 1695, 104
+  size: 166, 150
+  orig: 300, 300
+  offset: 69, 83
+  index: -1
+buff1/0_00003
+  rotate: false
+  xy: 1520, 100
+  size: 173, 154
+  orig: 300, 300
+  offset: 68, 79
+  index: -1
+buff1/0_00004
+  rotate: false
+  xy: 1336, 99
+  size: 182, 155
+  orig: 300, 300
+  offset: 62, 77
+  index: -1
+buff1/0_00005
+  rotate: false
+  xy: 1151, 96
+  size: 183, 158
+  orig: 300, 300
+  offset: 61, 73
+  index: -1
+buff1/0_00006
+  rotate: false
+  xy: 772, 101
+  size: 189, 153
+  orig: 300, 300
+  offset: 54, 73
+  index: -1
+buff1/0_00007
+  rotate: false
+  xy: 963, 100
+  size: 186, 154
+  orig: 300, 300
+  offset: 55, 74
+  index: -1
+buff1/0_00008
+  rotate: false
+  xy: 197, 97
+  size: 188, 157
+  orig: 300, 300
+  offset: 56, 71
+  index: -1
+buff1/0_00009
+  rotate: false
+  xy: 387, 94
+  size: 192, 160
+  orig: 300, 300
+  offset: 57, 69
+  index: -1
+buff1/1/0_00000
+  rotate: true
+  xy: 1956, 65
+  size: 189, 89
+  orig: 300, 300
+  offset: 52, 73
+  index: -1
+buff1/1/0_00001
+  rotate: false
+  xy: 201, 2
+  size: 192, 90
+  orig: 300, 300
+  offset: 51, 73
+  index: -1
+buff1/1/0_00002
+  rotate: false
+  xy: 777, 2
+  size: 191, 92
+  orig: 300, 300
+  offset: 51, 70
+  index: -1
+buff1/1/0_00003
+  rotate: false
+  xy: 970, 2
+  size: 190, 92
+  orig: 300, 300
+  offset: 52, 69
+  index: -1
+buff1/1/0_00004
+  rotate: false
+  xy: 1353, 3
+  size: 191, 94
+  orig: 300, 300
+  offset: 52, 69
+  index: -1
+buff1/1/0_00005
+  rotate: false
+  xy: 582, 2
+  size: 193, 92
+  orig: 300, 300
+  offset: 52, 70
+  index: -1
+buff1/1/0_00006
+  rotate: false
+  xy: 2, 2
+  size: 197, 91
+  orig: 300, 300
+  offset: 53, 71
+  index: -1
+buff1/1/0_00007
+  rotate: true
+  xy: 1863, 57
+  size: 197, 91
+  orig: 300, 300
+  offset: 53, 71
+  index: -1
+buff1/1/0_00008
+  rotate: false
+  xy: 1162, 2
+  size: 189, 92
+  orig: 300, 300
+  offset: 56, 71
+  index: -1
+buff1/1/0_00009
+  rotate: false
+  xy: 395, 2
+  size: 185, 90
+  orig: 300, 300
+  offset: 56, 74
+  index: -1

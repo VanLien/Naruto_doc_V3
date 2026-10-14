@@ -1,0 +1,349 @@
+
+action2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/buff2_1/0_00002
+  rotate: false
+  xy: 2, 8
+  size: 62, 62
+  orig: 200, 200
+  offset: 70, 84
+  index: -1
+images/sakura_action2/0_00000
+  rotate: false
+  xy: 409, 43
+  size: 107, 178
+  orig: 1200, 600
+  offset: 273, 113
+  index: -1
+images/sakura_action2/0_00001
+  rotate: true
+  xy: 208, 45
+  size: 115, 199
+  orig: 1200, 600
+  offset: 265, 84
+  index: -1
+images/sakura_action2/0_00002
+  rotate: false
+  xy: 532, 1088
+  size: 212, 205
+  orig: 1200, 600
+  offset: 256, 90
+  index: -1
+images/sakura_action2/0_00003
+  rotate: true
+  xy: 1190, 1552
+  size: 221, 184
+  orig: 1200, 600
+  offset: 254, 97
+  index: -1
+images/sakura_action2/0_00004
+  rotate: true
+  xy: 531, 1295
+  size: 226, 170
+  orig: 1200, 600
+  offset: 249, 107
+  index: -1
+images/sakura_action2/0_00005
+  rotate: true
+  xy: 1857, 1768
+  size: 272, 189
+  orig: 1200, 600
+  offset: 244, 81
+  index: -1
+images/sakura_action2/0_00006
+  rotate: true
+  xy: 2, 370
+  size: 283, 220
+  orig: 1200, 600
+  offset: 242, 88
+  index: -1
+images/sakura_action2/0_00007
+  rotate: true
+  xy: 2, 655
+  size: 287, 263
+  orig: 1200, 600
+  offset: 240, 95
+  index: -1
+images/sakura_action2/0_00008
+  rotate: true
+  xy: 264, 1294
+  size: 227, 265
+  orig: 1200, 600
+  offset: 298, 107
+  index: -1
+images/sakura_action2/0_00009
+  rotate: true
+  xy: 264, 1098
+  size: 194, 266
+  orig: 1200, 600
+  offset: 312, 108
+  index: -1
+images/sakura_action2/0_00010
+  rotate: false
+  xy: 267, 679
+  size: 173, 268
+  orig: 1200, 600
+  offset: 319, 104
+  index: -1
+images/sakura_action2/0_00011
+  rotate: false
+  xy: 224, 382
+  size: 132, 271
+  orig: 1200, 600
+  offset: 360, 102
+  index: -1
+images/sakura_action2/0_00012
+  rotate: false
+  xy: 442, 683
+  size: 121, 264
+  orig: 1200, 600
+  offset: 352, 107
+  index: -1
+images/sakura_action2/0_00013
+  rotate: false
+  xy: 358, 418
+  size: 132, 259
+  orig: 1200, 600
+  offset: 344, 112
+  index: -1
+images/sakura_action2/0_00014
+  rotate: false
+  xy: 492, 425
+  size: 141, 256
+  orig: 1200, 600
+  offset: 336, 112
+  index: -1
+images/sakura_action2/0_00015
+  rotate: true
+  xy: 262, 949
+  size: 147, 254
+  orig: 1200, 600
+  offset: 331, 111
+  index: -1
+images/sakura_action2/0_00016
+  rotate: false
+  xy: 565, 707
+  size: 147, 245
+  orig: 1200, 600
+  offset: 332, 112
+  index: -1
+images/sakura_action2/0_00017
+  rotate: true
+  xy: 1552, 1662
+  size: 151, 235
+  orig: 1200, 600
+  offset: 328, 114
+  index: -1
+images/sakura_action2/0_00018
+  rotate: false
+  xy: 1376, 1588
+  size: 154, 198
+  orig: 1200, 600
+  offset: 324, 114
+  index: -1
+images/sakura_action2/0_00019
+  rotate: true
+  xy: 518, 954
+  size: 132, 198
+  orig: 1200, 600
+  offset: 342, 110
+  index: -1
+images/sakura_action2/0_00020
+  rotate: false
+  xy: 704, 2
+  size: 140, 181
+  orig: 1200, 600
+  offset: 334, 112
+  index: -1
+images/sakura_action2/0_00021
+  rotate: false
+  xy: 703, 1394
+  size: 147, 165
+  orig: 1200, 600
+  offset: 327, 124
+  index: -1
+images/sakura_action2/0_00022
+  rotate: false
+  xy: 852, 1390
+  size: 107, 169
+  orig: 1200, 600
+  offset: 279, 123
+  index: -1
+images/sakura_action2/0_00023
+  rotate: false
+  xy: 961, 1392
+  size: 108, 173
+  orig: 1200, 600
+  offset: 275, 118
+  index: -1
+images/tsunade_action2/0_00000
+  rotate: false
+  xy: 397, 223
+  size: 106, 193
+  orig: 1200, 600
+  offset: 246, 105
+  index: -1
+images/tsunade_action2/0_00001
+  rotate: false
+  xy: 581, 1536
+  size: 106, 191
+  orig: 1200, 600
+  offset: 243, 106
+  index: -1
+images/tsunade_action2/0_00002
+  rotate: true
+  xy: 635, 343
+  size: 123, 201
+  orig: 1200, 600
+  offset: 231, 92
+  index: -1
+images/tsunade_action2/0_00003
+  rotate: true
+  xy: 1789, 1607
+  size: 159, 226
+  orig: 1200, 600
+  offset: 222, 98
+  index: -1
+images/tsunade_action2/0_00004
+  rotate: false
+  xy: 689, 1561
+  size: 180, 181
+  orig: 1200, 600
+  offset: 220, 105
+  index: -1
+images/tsunade_action2/0_00005
+  rotate: false
+  xy: 614, 185
+  size: 190, 156
+  orig: 1200, 600
+  offset: 222, 116
+  index: -1
+images/tsunade_action2/0_00006
+  rotate: false
+  xy: 518, 25
+  size: 184, 158
+  orig: 1200, 600
+  offset: 241, 100
+  index: -1
+images/tsunade_action2/0_00007
+  rotate: true
+  xy: 208, 162
+  size: 206, 187
+  orig: 1200, 600
+  offset: 263, 82
+  index: -1
+images/tsunade_action2/0_00008
+  rotate: false
+  xy: 635, 468
+  size: 200, 237
+  orig: 1200, 600
+  offset: 278, 88
+  index: -1
+images/tsunade_action2/0_00009
+  rotate: false
+  xy: 2, 72
+  size: 204, 296
+  orig: 1200, 600
+  offset: 276, 95
+  index: -1
+images/tsunade_action2/0_00010
+  rotate: false
+  xy: 2, 1634
+  size: 291, 406
+  orig: 1200, 600
+  offset: 233, 107
+  index: -1
+images/tsunade_action2/0_00011
+  rotate: false
+  xy: 2, 1264
+  size: 260, 368
+  orig: 1200, 600
+  offset: 245, 134
+  index: -1
+images/tsunade_action2/0_00012
+  rotate: false
+  xy: 2, 944
+  size: 258, 318
+  orig: 1200, 600
+  offset: 242, 185
+  index: -1
+images/tsunade_action2/0_00013
+  rotate: true
+  xy: 1238, 1788
+  size: 252, 312
+  orig: 1200, 600
+  offset: 241, 182
+  index: -1
+images/tsunade_action2/0_00014
+  rotate: false
+  xy: 295, 1729
+  size: 303, 311
+  orig: 1200, 600
+  offset: 238, 181
+  index: -1
+images/tsunade_action2/0_00015
+  rotate: true
+  xy: 600, 1744
+  size: 296, 317
+  orig: 1200, 600
+  offset: 247, 180
+  index: -1
+images/tsunade_action2/0_00016
+  rotate: true
+  xy: 919, 1775
+  size: 265, 317
+  orig: 1200, 600
+  offset: 265, 172
+  index: -1
+images/tsunade_action2/0_00017
+  rotate: true
+  xy: 1552, 1815
+  size: 225, 303
+  orig: 1200, 600
+  offset: 313, 170
+  index: -1
+images/tsunade_action2/0_00018
+  rotate: true
+  xy: 295, 1523
+  size: 204, 284
+  orig: 1200, 600
+  offset: 308, 168
+  index: -1
+images/tsunade_action2/0_00019
+  rotate: true
+  xy: 919, 1567
+  size: 206, 269
+  orig: 1200, 600
+  offset: 304, 166
+  index: -1
+images/tsunade_action2/0_00020
+  rotate: true
+  xy: 1532, 1561
+  size: 99, 221
+  orig: 1200, 600
+  offset: 268, 165
+  index: -1
+images/tsunade_action2/0_00021
+  rotate: true
+  xy: 1755, 1499
+  size: 106, 191
+  orig: 1200, 600
+  offset: 238, 131
+  index: -1
+images/tsunade_action2/0_00022
+  rotate: false
+  xy: 505, 232
+  size: 107, 191
+  orig: 1200, 600
+  offset: 236, 105
+  index: -1
+images/tsunade_action2/0_00023
+  rotate: false
+  xy: 714, 762
+  size: 101, 190
+  orig: 1200, 600
+  offset: 245, 107
+  index: -1

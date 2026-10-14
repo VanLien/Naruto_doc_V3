@@ -1,0 +1,90 @@
+
+action.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ydabi
+  rotate: false
+  xy: 323, 4
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+Ydatui
+  rotate: false
+  xy: 371, 86
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+Yshou
+  rotate: false
+  xy: 323, 29
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+Yxiaotui
+  rotate: false
+  xy: 349, 36
+  size: 17, 27
+  orig: 17, 27
+  offset: 0, 0
+  index: -1
+Zdabi
+  rotate: true
+  xy: 371, 68
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+Zdatui
+  rotate: false
+  xy: 421, 89
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+Zshou
+  rotate: false
+  xy: 396, 87
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+Zxiaotui
+  rotate: false
+  xy: 444, 92
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 323, 65
+  size: 46, 53
+  orig: 46, 53
+  offset: 0, 0
+  index: -1
+shouji
+  rotate: false
+  xy: 2, 2
+  size: 105, 116
+  orig: 105, 116
+  offset: 0, 0
+  index: -1
+shouji2
+  rotate: false
+  xy: 109, 2
+  size: 105, 116
+  orig: 105, 116
+  offset: 0, 0
+  index: -1
+shouji3
+  rotate: false
+  xy: 216, 2
+  size: 105, 116
+  orig: 105, 116
+  offset: 0, 0
+  index: -1

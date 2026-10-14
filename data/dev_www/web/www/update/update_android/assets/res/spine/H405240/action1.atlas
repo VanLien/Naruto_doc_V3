@@ -1,0 +1,90 @@
+
+action1.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hashirama action1/0_00000
+  rotate: true
+  xy: 1104, 114
+  size: 97, 194
+  orig: 900, 600
+  offset: 230, 196
+  index: -1
+hashirama action1/0_00001
+  rotate: true
+  xy: 716, 110
+  size: 101, 192
+  orig: 900, 600
+  offset: 229, 194
+  index: -1
+hashirama action1/0_00002
+  rotate: true
+  xy: 1695, 113
+  size: 98, 190
+  orig: 900, 600
+  offset: 232, 198
+  index: -1
+hashirama action1/0_00003
+  rotate: true
+  xy: 1300, 118
+  size: 93, 195
+  orig: 900, 600
+  offset: 236, 195
+  index: -1
+hashirama action1/0_00004
+  rotate: true
+  xy: 1497, 121
+  size: 90, 196
+  orig: 900, 600
+  offset: 238, 195
+  index: -1
+hashirama action1/0_00005
+  rotate: true
+  xy: 132, 91
+  size: 120, 194
+  orig: 900, 600
+  offset: 239, 197
+  index: -1
+hashirama action1/0_00006
+  rotate: false
+  xy: 2, 20
+  size: 128, 191
+  orig: 900, 600
+  offset: 238, 201
+  index: -1
+hashirama action1/0_00007
+  rotate: true
+  xy: 328, 88
+  size: 123, 190
+  orig: 900, 600
+  offset: 242, 203
+  index: -1
+hashirama action1/0_00008
+  rotate: true
+  xy: 324, 3
+  size: 83, 183
+  orig: 900, 600
+  offset: 241, 197
+  index: -1
+hashirama action1/0_00009
+  rotate: true
+  xy: 132, 2
+  size: 87, 190
+  orig: 900, 600
+  offset: 236, 197
+  index: -1
+hashirama action1/0_00010
+  rotate: true
+  xy: 520, 111
+  size: 100, 194
+  orig: 900, 600
+  offset: 232, 196
+  index: -1
+hashirama action1/0_00011
+  rotate: true
+  xy: 910, 109
+  size: 102, 192
+  orig: 900, 600
+  offset: 229, 194
+  index: -1

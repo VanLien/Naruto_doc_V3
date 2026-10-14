@@ -1,0 +1,76 @@
+
+stand2.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daheitian/skeleton-animation_0
+  rotate: true
+  xy: 2, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_12
+  rotate: true
+  xy: 245, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_16
+  rotate: true
+  xy: 326, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_20
+  rotate: true
+  xy: 407, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_24
+  rotate: true
+  xy: 488, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_28
+  rotate: true
+  xy: 569, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_32
+  rotate: true
+  xy: 650, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_36
+  rotate: true
+  xy: 731, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_4
+  rotate: true
+  xy: 83, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1
+daheitian/skeleton-animation_8
+  rotate: true
+  xy: 164, 2
+  size: 115, 79
+  orig: 115, 79
+  offset: 0, 0
+  index: -1

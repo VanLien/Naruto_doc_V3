@@ -1,0 +1,124 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/tx/E405133/0_00000
+  rotate: true
+  xy: 1903, 348
+  size: 171, 95
+  orig: 1498, 842
+  offset: 664, 176
+  index: -1
+image/tx/E405133/0_00001
+  rotate: true
+  xy: 1903, 520
+  size: 231, 127
+  orig: 1498, 842
+  offset: 634, 160
+  index: -1
+image/tx/E405133/0_00002
+  rotate: true
+  xy: 1039, 188
+  size: 338, 191
+  orig: 1498, 842
+  offset: 581, 128
+  index: -1
+image/tx/E405133/0_00003
+  rotate: true
+  xy: 703, 68
+  size: 458, 335
+  orig: 1498, 842
+  offset: 513, 96
+  index: -1
+image/tx/E405133/0_00004
+  rotate: true
+  xy: 1, 12
+  size: 505, 701
+  orig: 1498, 842
+  offset: 466, 65
+  index: -1
+image/tx/E405133/0_00009
+  rotate: false
+  xy: 573, 527
+  size: 664, 752
+  orig: 1498, 842
+  offset: 307, 46
+  index: -1
+image/tx/E405133/0_00010
+  rotate: true
+  xy: 1274, 752
+  size: 664, 750
+  orig: 1498, 842
+  offset: 307, 48
+  index: -1
+image/tx/E405133/0_00012
+  rotate: false
+  xy: 609, 1293
+  size: 664, 752
+  orig: 1498, 842
+  offset: 307, 46
+  index: -1
+image/tx/E405133/0_00013
+  rotate: false
+  xy: 1238, 1
+  size: 664, 750
+  orig: 1498, 842
+  offset: 307, 48
+  index: -1
+image/tx/E405133/0_00015
+  rotate: true
+  xy: 1274, 1417
+  size: 628, 752
+  orig: 1498, 842
+  offset: 343, 46
+  index: -1
+image/tx/E405133/0_00016
+  rotate: false
+  xy: 1, 518
+  size: 571, 761
+  orig: 1498, 842
+  offset: 400, 37
+  index: -1
+image/tx/E405133/0_00019
+  rotate: false
+  xy: 1, 1280
+  size: 607, 765
+  orig: 1498, 842
+  offset: 364, 33
+  index: -1
+
+action2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/tx/E405133/0_00006
+  rotate: false
+  xy: 1, 1295
+  size: 664, 740
+  orig: 1498, 842
+  offset: 307, 58
+  index: -1
+image/tx/E405133/0_00007
+  rotate: false
+  xy: 1, 559
+  size: 664, 735
+  orig: 1498, 842
+  offset: 307, 63
+  index: -1
+image/tx/E405133/0_00018
+  rotate: false
+  xy: 666, 1285
+  size: 572, 750
+  orig: 1498, 842
+  offset: 399, 48
+  index: -1
+image/tx/E405133/0_00021
+  rotate: false
+  xy: 1, 1
+  size: 588, 557
+  orig: 1498, 842
+  offset: 383, 64
+  index: -1

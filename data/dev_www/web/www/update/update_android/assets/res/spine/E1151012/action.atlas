@@ -1,0 +1,55 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill/hit1/0_00000
+  rotate: true
+  xy: 2, 2
+  size: 363, 378
+  orig: 1500, 1500
+  offset: 584, 578
+  index: -1
+skill/hit1/0_00001
+  rotate: true
+  xy: 1599, 1541
+  size: 505, 443
+  orig: 1500, 1500
+  offset: 494, 564
+  index: -1
+skill/hit1/0_00002
+  rotate: false
+  xy: 822, 924
+  size: 668, 534
+  orig: 1500, 1500
+  offset: 418, 544
+  index: -1
+skill/hit1/0_00003
+  rotate: false
+  xy: 822, 1460
+  size: 775, 586
+  orig: 1500, 1500
+  offset: 370, 533
+  index: -1
+skill/hit1/0_00004
+  rotate: false
+  xy: 2, 790
+  size: 801, 626
+  orig: 1500, 1500
+  offset: 360, 512
+  index: -1
+skill/hit1/0_00005
+  rotate: false
+  xy: 2, 1418
+  size: 818, 628
+  orig: 1500, 1500
+  offset: 353, 520
+  index: -1
+skill/hit1/0_00006
+  rotate: false
+  xy: 2, 367
+  size: 826, 421
+  orig: 1500, 1500
+  offset: 342, 725
+  index: -1

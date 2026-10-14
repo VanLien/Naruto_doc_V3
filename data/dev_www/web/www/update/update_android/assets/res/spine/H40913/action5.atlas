@@ -1,0 +1,118 @@
+
+action5.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kakashi attack/0_00003
+  rotate: true
+  xy: 164, 7
+  size: 108, 145
+  orig: 600, 400
+  offset: 116, 92
+  index: -1
+images/kakashi attack/0_00004
+  rotate: true
+  xy: 454, 13
+  size: 102, 141
+  orig: 600, 400
+  offset: 119, 96
+  index: -1
+images/kakashi attack/0_00005
+  rotate: true
+  xy: 1847, 53
+  size: 62, 140
+  orig: 600, 400
+  offset: 135, 97
+  index: -1
+images/kakashi attack/0_00007
+  rotate: true
+  xy: 597, 18
+  size: 97, 138
+  orig: 600, 400
+  offset: 148, 97
+  index: -1
+images/kakashi attack/0_00009
+  rotate: true
+  xy: 2, 5
+  size: 110, 160
+  orig: 600, 400
+  offset: 137, 89
+  index: -1
+images/kakashi attack/0_00011
+  rotate: true
+  xy: 311, 6
+  size: 109, 141
+  orig: 600, 400
+  offset: 140, 92
+  index: -1
+images/kakashi attack/0_00013
+  rotate: true
+  xy: 737, 17
+  size: 98, 129
+  orig: 600, 400
+  offset: 138, 98
+  index: -1
+images/kakashi attack/0_00015
+  rotate: true
+  xy: 1847, 2
+  size: 49, 136
+  orig: 600, 400
+  offset: 146, 98
+  index: -1
+images/obito run/0_00000
+  rotate: true
+  xy: 1609, 15
+  size: 100, 117
+  orig: 600, 400
+  offset: 126, 108
+  index: -1
+images/obito run/0_00001
+  rotate: true
+  xy: 868, 15
+  size: 100, 121
+  orig: 600, 400
+  offset: 127, 100
+  index: -1
+images/obito run/0_00002
+  rotate: true
+  xy: 1365, 18
+  size: 97, 120
+  orig: 600, 400
+  offset: 131, 98
+  index: -1
+images/obito run/0_00003
+  rotate: true
+  xy: 1114, 20
+  size: 95, 123
+  orig: 600, 400
+  offset: 132, 98
+  index: -1
+images/obito run/0_00004
+  rotate: true
+  xy: 1728, 15
+  size: 100, 117
+  orig: 600, 400
+  offset: 126, 108
+  index: -1
+images/obito run/0_00005
+  rotate: true
+  xy: 991, 15
+  size: 100, 121
+  orig: 600, 400
+  offset: 127, 100
+  index: -1
+images/obito run/0_00006
+  rotate: true
+  xy: 1487, 19
+  size: 96, 120
+  orig: 600, 400
+  offset: 132, 98
+  index: -1
+images/obito run/0_00007
+  rotate: true
+  xy: 1239, 21
+  size: 94, 124
+  orig: 600, 400
+  offset: 133, 97
+  index: -1

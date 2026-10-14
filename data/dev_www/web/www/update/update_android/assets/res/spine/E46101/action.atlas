@@ -1,0 +1,124 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/skill1/1
+  rotate: false
+  xy: 1129, 181
+  size: 129, 149
+  orig: 800, 824
+  offset: 260, 519
+  index: -1
+images/skill1/11
+  rotate: true
+  xy: 2, 2
+  size: 558, 658
+  orig: 800, 824
+  offset: 119, 160
+  index: -1
+images/skill1/13
+  rotate: true
+  xy: 1332, 865
+  size: 556, 660
+  orig: 800, 824
+  offset: 118, 160
+  index: -1
+images/skill1/19
+  rotate: true
+  xy: 618, 957
+  size: 464, 712
+  orig: 800, 824
+  offset: 93, 88
+  index: -1
+images/skill1/2
+  rotate: true
+  xy: 662, 36
+  size: 294, 465
+  orig: 800, 824
+  offset: 180, 188
+  index: -1
+images/skill1/20
+  rotate: false
+  xy: 2, 1257
+  size: 614, 789
+  orig: 800, 824
+  offset: 52, 11
+  index: -1
+images/skill1/22
+  rotate: false
+  xy: 1337, 1423
+  size: 689, 623
+  orig: 800, 824
+  offset: 54, 182
+  index: -1
+images/skill1/23
+  rotate: false
+  xy: 618, 1423
+  size: 717, 623
+  orig: 800, 824
+  offset: 54, 181
+  index: -1
+images/skill1/25
+  rotate: true
+  xy: 2, 562
+  size: 693, 601
+  orig: 800, 824
+  offset: 94, 192
+  index: -1
+images/skill1/6
+  rotate: true
+  xy: 1305, 272
+  size: 591, 632
+  orig: 800, 824
+  offset: 56, 160
+  index: -1
+images/skill1/8
+  rotate: false
+  xy: 662, 332
+  size: 641, 623
+  orig: 800, 824
+  offset: 32, 160
+  index: -1
+
+action2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/skill1/15
+  rotate: false
+  xy: 484, 391
+  size: 446, 601
+  orig: 800, 824
+  offset: 114, 160
+  index: -1
+images/skill1/17
+  rotate: false
+  xy: 932, 418
+  size: 451, 574
+  orig: 800, 824
+  offset: 110, 160
+  index: -1
+images/skill1/28
+  rotate: false
+  xy: 1385, 2
+  size: 532, 449
+  orig: 800, 824
+  offset: 100, 207
+  index: -1
+images/skill1/3
+  rotate: false
+  xy: 1385, 453
+  size: 452, 539
+  orig: 800, 824
+  offset: 154, 189
+  index: -1
+images/skill1/5
+  rotate: false
+  xy: 2, 380
+  size: 480, 612
+  orig: 800, 824
+  offset: 140, 160
+  index: -1

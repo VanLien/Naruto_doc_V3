@@ -1,0 +1,250 @@
+
+action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action4_wood/1/0_00010
+  rotate: false
+  xy: 2, 1360
+  size: 377, 684
+  orig: 1800, 1350
+  offset: 460, 313
+  index: -1
+action4_wood/1/0_00013
+  rotate: false
+  xy: 664, 752
+  size: 432, 611
+  orig: 1800, 1350
+  offset: 460, 336
+  index: -1
+action4_wood/1/0_00015
+  rotate: false
+  xy: 1043, 1438
+  size: 390, 606
+  orig: 1800, 1350
+  offset: 460, 336
+  index: -1
+action4_wood/1/0_00017
+  rotate: true
+  xy: 1435, 1667
+  size: 377, 605
+  orig: 1800, 1350
+  offset: 460, 326
+  index: -1
+action4_wood/1/0_00018
+  rotate: true
+  xy: 1637, 807
+  size: 268, 401
+  orig: 1800, 1350
+  offset: 501, 362
+  index: -1
+action4_wood/1/0_00019
+  rotate: true
+  xy: 1098, 1174
+  size: 262, 331
+  orig: 1800, 1350
+  offset: 509, 388
+  index: -1
+action4_wood/1/0_00020
+  rotate: true
+  xy: 1637, 525
+  size: 280, 386
+  orig: 1800, 1350
+  offset: 514, 402
+  index: -1
+action4_wood/1/0_00021
+  rotate: false
+  xy: 1234, 2
+  size: 281, 423
+  orig: 1800, 1350
+  offset: 521, 409
+  index: -1
+action4_wood/1/0_00023
+  rotate: true
+  xy: 1234, 427
+  size: 255, 381
+  orig: 1800, 1350
+  offset: 541, 429
+  index: -1
+action4_wood/1/0_00025
+  rotate: true
+  xy: 1517, 13
+  size: 412, 297
+  orig: 1800, 1350
+  offset: 524, 399
+  index: -1
+action4_wood/1/0_00026
+  rotate: true
+  xy: 1098, 684
+  size: 391, 537
+  orig: 1800, 1350
+  offset: 461, 471
+  index: -1
+action4_wood/1/0_00030
+  rotate: true
+  xy: 2, 6
+  size: 670, 605
+  orig: 1800, 1350
+  offset: 460, 336
+  index: -1
+action4_wood/1/0_00031
+  rotate: true
+  xy: 381, 1365
+  size: 679, 660
+  orig: 1800, 1350
+  offset: 460, 328
+  index: -1
+action4_wood/1/0_00032
+  rotate: false
+  xy: 2, 678
+  size: 660, 680
+  orig: 1800, 1350
+  offset: 460, 322
+  index: -1
+action4_wood/1/0_00033
+  rotate: false
+  xy: 609, 42
+  size: 623, 634
+  orig: 1800, 1350
+  offset: 460, 382
+  index: -1
+action4_wood/1/0_00052
+  rotate: true
+  xy: 1435, 1353
+  size: 312, 602
+  orig: 1800, 1350
+  offset: 460, 324
+  index: -1
+action4_wood/1/0_00053
+  rotate: true
+  xy: 1431, 1077
+  size: 274, 596
+  orig: 1800, 1350
+  offset: 460, 324
+  index: -1
+
+action2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+E405242/1
+  rotate: false
+  xy: 548, 1427
+  size: 563, 307
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/2
+  rotate: true
+  xy: 313, 445
+  size: 563, 307
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/3
+  rotate: true
+  xy: 932, 552
+  size: 563, 307
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/4
+  rotate: false
+  xy: 1124, 1738
+  size: 563, 308
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/5
+  rotate: false
+  xy: 441, 1117
+  size: 563, 308
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/6
+  rotate: true
+  xy: 622, 552
+  size: 563, 308
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/7
+  rotate: true
+  xy: 2, 445
+  size: 563, 309
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/8
+  rotate: false
+  xy: 622, 243
+  size: 563, 307
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+E405242/9
+  rotate: true
+  xy: 1689, 1483
+  size: 563, 307
+  orig: 563, 314
+  offset: 0, 0
+  index: -1
+action4_wood/1/0_00009
+  rotate: false
+  xy: 2, 1010
+  size: 437, 501
+  orig: 1800, 1350
+  offset: 460, 317
+  index: -1
+action4_wood/1/0_00022
+  rotate: false
+  xy: 2, 2
+  size: 281, 441
+  orig: 1800, 1350
+  offset: 521, 420
+  index: -1
+action4_wood/1/0_00024
+  rotate: false
+  xy: 1187, 284
+  size: 248, 266
+  orig: 1800, 1350
+  offset: 536, 414
+  index: -1
+action4_wood/1/0_00027
+  rotate: true
+  xy: 548, 1736
+  size: 310, 574
+  orig: 1800, 1350
+  offset: 460, 500
+  index: -1
+action4_wood/1/0_00029
+  rotate: false
+  xy: 2, 1513
+  size: 544, 533
+  orig: 1800, 1350
+  offset: 460, 513
+  index: -1
+action4_wood/1/0_00035
+  rotate: false
+  xy: 285, 82
+  size: 307, 361
+  orig: 1800, 1350
+  offset: 460, 458
+  index: -1
+action4_wood/1/0_00036
+  rotate: true
+  xy: 1006, 1137
+  size: 288, 287
+  orig: 1800, 1350
+  offset: 460, 499
+  index: -1
+action4_wood/1/0_00037
+  rotate: true
+  xy: 1241, 879
+  size: 256, 248
+  orig: 1800, 1350
+  offset: 460, 438
+  index: -1

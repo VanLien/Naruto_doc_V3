@@ -1,0 +1,146 @@
+
+stand2.png
+size: 1024,64
+format: RGBA8888
+filter: MipMapLinearLinear,Nearest
+repeat: none
+yw/stand/00026
+  rotate: false
+  xy: 2, 25
+  size: 61, 37
+  orig: 93, 93
+  offset: 4, 26
+  index: -1
+yw/stand/00028
+  rotate: true
+  xy: 254, 2
+  size: 60, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00030
+  rotate: true
+  xy: 293, 2
+  size: 60, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00032
+  rotate: true
+  xy: 332, 2
+  size: 60, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00034
+  rotate: true
+  xy: 536, 3
+  size: 59, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00036
+  rotate: true
+  xy: 575, 3
+  size: 59, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00038
+  rotate: true
+  xy: 614, 3
+  size: 59, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00040
+  rotate: true
+  xy: 653, 3
+  size: 59, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00042
+  rotate: true
+  xy: 768, 4
+  size: 58, 37
+  orig: 93, 93
+  offset: 6, 26
+  index: -1
+yw/stand/00044
+  rotate: true
+  xy: 807, 4
+  size: 58, 37
+  orig: 93, 93
+  offset: 6, 26
+  index: -1
+yw/stand/00046
+  rotate: true
+  xy: 884, 4
+  size: 58, 36
+  orig: 93, 93
+  offset: 6, 26
+  index: -1
+yw/stand/00048
+  rotate: true
+  xy: 846, 3
+  size: 59, 36
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00050
+  rotate: true
+  xy: 692, 2
+  size: 60, 36
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00052
+  rotate: true
+  xy: 730, 2
+  size: 60, 36
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00054
+  rotate: false
+  xy: 410, 26
+  size: 61, 36
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00056
+  rotate: false
+  xy: 473, 26
+  size: 61, 36
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00058
+  rotate: false
+  xy: 65, 25
+  size: 61, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00060
+  rotate: false
+  xy: 128, 25
+  size: 61, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00062
+  rotate: true
+  xy: 371, 2
+  size: 60, 37
+  orig: 93, 93
+  offset: 5, 26
+  index: -1
+yw/stand/00064
+  rotate: false
+  xy: 191, 25
+  size: 61, 37
+  orig: 93, 93
+  offset: 4, 26
+  index: -1

@@ -1,0 +1,104 @@
+
+action.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L arm
+  rotate: false
+  xy: 235, 127
+  size: 14, 45
+  orig: 14, 45
+  offset: 0, 0
+  index: -1
+L eyelid 1
+  rotate: false
+  xy: 238, 76
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+L eyelid 2
+  rotate: false
+  xy: 238, 61
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+L farearm
+  rotate: false
+  xy: 235, 174
+  size: 19, 66
+  orig: 19, 66
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: false
+  xy: 175, 45
+  size: 37, 57
+  orig: 37, 57
+  offset: 0, 0
+  index: -1
+R eyelid 1
+  rotate: false
+  xy: 238, 91
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+R eyelid 2
+  rotate: true
+  xy: 235, 107
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+R forearm
+  rotate: false
+  xy: 214, 42
+  size: 22, 60
+  orig: 22, 60
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 59
+  size: 95, 181
+  orig: 95, 181
+  offset: 0, 0
+  index: -1
+food
+  rotate: true
+  xy: 63, 5
+  size: 24, 50
+  orig: 24, 50
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 99, 32
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 2, 2
+  size: 59, 27
+  orig: 59, 27
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 99, 104
+  size: 134, 136
+  orig: 134, 136
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 2, 31
+  size: 26, 87
+  orig: 26, 87
+  offset: 0, 0
+  index: -1

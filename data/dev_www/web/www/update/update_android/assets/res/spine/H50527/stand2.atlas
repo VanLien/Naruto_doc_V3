@@ -1,0 +1,97 @@
+
+stand2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+stand/stand2_00
+  rotate: true
+  xy: 499, 11
+  size: 230, 265
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_01
+  rotate: true
+  xy: 764, 11
+  size: 230, 265
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_02
+  rotate: false
+  xy: 924, 241
+  size: 230, 267
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_03
+  rotate: false
+  xy: 1154, 241
+  size: 230, 267
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_04
+  rotate: false
+  xy: 0, 240
+  size: 231, 268
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_05
+  rotate: false
+  xy: 231, 240
+  size: 231, 268
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_06
+  rotate: true
+  xy: 0, 9
+  size: 231, 267
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_07
+  rotate: false
+  xy: 462, 241
+  size: 231, 267
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_08
+  rotate: false
+  xy: 693, 241
+  size: 231, 267
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_09
+  rotate: false
+  xy: 1384, 242
+  size: 230, 266
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_10
+  rotate: false
+  xy: 1614, 242
+  size: 230, 266
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_11
+  rotate: false
+  xy: 267, 0
+  size: 232, 240
+  orig: 720, 598
+  offset: 190, 166
+  index: -1
+stand/stand2_12
+  rotate: true
+  xy: 1029, 9
+  size: 232, 240
+  orig: 720, 598
+  offset: 190, 166
+  index: -1

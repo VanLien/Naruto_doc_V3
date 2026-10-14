@@ -1,0 +1,124 @@
+
+show.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/SHOW_2/0_00000
+  rotate: false
+  xy: 1, 1247
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00001
+  rotate: false
+  xy: 1, 624
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00002
+  rotate: false
+  xy: 629, 1247
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00004
+  rotate: false
+  xy: 1, 1
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00005
+  rotate: false
+  xy: 629, 624
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00006
+  rotate: false
+  xy: 1257, 1247
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00008
+  rotate: false
+  xy: 1257, 1
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00018
+  rotate: false
+  xy: 629, 1
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+images/SHOW_2/0_00019
+  rotate: false
+  xy: 1257, 624
+  size: 627, 622
+  orig: 922, 922
+  offset: 137, 149
+  index: -1
+
+show2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/SHOW_2/0_00009
+  rotate: false
+  xy: 1, 1247
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00010
+  rotate: false
+  xy: 1, 624
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00012
+  rotate: false
+  xy: 628, 1247
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00013
+  rotate: false
+  xy: 1, 1
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00014
+  rotate: false
+  xy: 628, 624
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00016
+  rotate: false
+  xy: 1255, 1247
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1
+images/SHOW_2/0_00017
+  rotate: false
+  xy: 628, 1
+  size: 626, 622
+  orig: 922, 922
+  offset: 138, 149
+  index: -1

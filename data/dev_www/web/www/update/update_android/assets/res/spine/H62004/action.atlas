@@ -1,0 +1,132 @@
+
+action.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2 L arm
+  rotate: false
+  xy: 727, 130
+  size: 110, 124
+  orig: 110, 124
+  offset: 0, 0
+  index: -1
+2 L leg
+  rotate: false
+  xy: 2, 13
+  size: 236, 241
+  orig: 236, 241
+  offset: 0, 0
+  index: -1
+2 R arm
+  rotate: false
+  xy: 409, 84
+  size: 81, 52
+  orig: 81, 52
+  offset: 0, 0
+  index: -1
+2 R hand
+  rotate: true
+  xy: 240, 16
+  size: 72, 110
+  orig: 72, 110
+  offset: 0, 0
+  index: -1
+2 R leg
+  rotate: false
+  xy: 240, 90
+  size: 167, 164
+  orig: 167, 164
+  offset: 0, 0
+  index: -1
+2 body
+  rotate: true
+  xy: 409, 138
+  size: 116, 181
+  orig: 116, 181
+  offset: 0, 0
+  index: -1
+2 bosom
+  rotate: false
+  xy: 839, 173
+  size: 82, 81
+  orig: 82, 81
+  offset: 0, 0
+  index: -1
+2 cord 1
+  rotate: true
+  xy: 240, 2
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+2 cord 2
+  rotate: false
+  xy: 2, 5
+  size: 36, 6
+  orig: 36, 6
+  offset: 0, 0
+  index: -1
+2 cord 3
+  rotate: false
+  xy: 923, 175
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+2 eye
+  rotate: true
+  xy: 1009, 239
+  size: 15, 13
+  orig: 15, 16
+  offset: 0, 3
+  index: -1
+2 eye close
+  rotate: true
+  xy: 252, 2
+  size: 12, 7
+  orig: 12, 7
+  offset: 0, 0
+  index: -1
+2 eyebrow
+  rotate: false
+  xy: 492, 104
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+2 hair 1
+  rotate: true
+  xy: 839, 130
+  size: 41, 79
+  orig: 41, 79
+  offset: 0, 0
+  index: -1
+2 hair 2
+  rotate: false
+  xy: 352, 24
+  size: 24, 64
+  orig: 24, 64
+  offset: 0, 0
+  index: -1
+2 hair 3
+  rotate: true
+  xy: 492, 116
+  size: 20, 77
+  orig: 20, 77
+  offset: 0, 0
+  index: -1
+2 hair 4
+  rotate: true
+  xy: 592, 130
+  size: 124, 133
+  orig: 132, 137
+  offset: 3, 4
+  index: -1
+2 head
+  rotate: true
+  xy: 923, 187
+  size: 67, 84
+  orig: 67, 84
+  offset: 0, 0
+  index: -1
