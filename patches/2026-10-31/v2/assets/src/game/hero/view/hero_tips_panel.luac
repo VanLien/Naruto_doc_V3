@@ -1,0 +1,643 @@
+-- --------------------------------------------------------------------
+-- (必填, 创建模块的人员)
+-- (必填, 后续维护以及修改的人员)
+-- @description:
+--      英雄信息tips
+-- <br/>Create: 2018-xx-xx
+-- --------------------------------------------------------------------
+HeroTipsPanel = HeroTipsPanel or BaseClass(BaseView)
+
+local controller = HeroController:getInstance()
+local model = controller:getModel()
+local string_format = string.format
+local table_insert = table.insert
+local table_sort = table.sort
+
+function HeroTipsPanel:__init()
+    self.is_full_screen = false
+    self.title_str= ""
+    self.layout_name = "hero/hero_tips_panel"
+    self.win_type = WinType.Mini
+    self.view_tag = ViewMgrTag.DIALOGUE_TAG 
+
+    self.res_list = {
+        {path = PathTool.getPlistImgForDownLoad("hero", "hero"), type = ResourcesType.plist},
+        { path = PathTool.getPlistImgForDownLoad("tips","tips"), type = ResourcesType.plist},
+    }
+
+    self.attr_list = {[1]="atk",[2]="hp",[3]="def",[4]="speed"}
+    self.break_icon_list = {}
+    self.break_icon_bg_list = {}
+
+    --技能 
+    self.skill_width = 88
+    self.skill_item_list = {}
+
+    self.equip_type_list = HeroConst.EquipPosList
+
+    self.equip_icon_name_list = {
+        [BackPackConst.item_type.WEAPON] = "hero_info_7",  --武器icon
+        [BackPackConst.item_type.SHOE] = "hero_info_10",  --鞋子icon
+        [BackPackConst.item_type.CLOTHES] = "hero_info_9",  --衣服icon 
+        [BackPackConst.item_type.HAT] = "hero_info_8",  --裤子icon
+        [5] = "hero_info_11", --武器icon--神器
+        [6] = "hero_info_11", --武器icon
+    }   
+
+    self.holy_equip_type_list = HeroConst.HolyequipmentPosList
+    self.holy_equip_icon_name_list = {
+        [BackPackConst.item_type.GOD_EARRING] = "hero_info_25",  --耳环
+        [BackPackConst.item_type.GOD_RING] = "hero_info_27",  --戒指
+        [BackPackConst.item_type.GOD_NECKLACE] = "hero_info_26",  --项链
+        [BackPackConst.item_type.GOD_BANGLE] = "hero_info_28",  --手镯
+    }
+end
+
+function HeroTipsPanel:open_callback()
+    self.background = self.root_wnd:getChildByName("background")
+    if self.background then self.background:setScale(display.getMaxScale()) end
+    self.main_panel = self.root_wnd:getChildByName("main_panel")
+    self.box_bg = self.main_panel:getChildByName("box_bg")
+    self.title_icon = self.main_panel:getChildByName("title_icon")
+    if self.title_icon then self.title_icon:setVisible(false) end
+    self.top_panel = self.main_panel:getChildByName("top_panel")
+    self.hero_node = self.top_panel:getChildByName("hero_node")
+    self.hero_item = HeroExhibitionItem.new(0.8, false)
+    self.hero_node:addChild(self.hero_item)
+    self.hero_name = self.top_panel:getChildByName("hero_name")
+    self.advanced_node = self.top_panel:getChildByName("advanced_node")
+    self.advanced_key = self.top_panel:getChildByName("advancedKey")
+    self.score_image = self.top_panel:getChildByName("score_image")
+    self.power_click = self.top_panel:getChildByName("power_click")
+    local arrow_bg = self.power_click:getChildByName("arrow_bg")
+    self.fight_label = CommonNum.new(20, self.power_click, 99999, -2, cc.p(0, 0.5))
+    self.fight_label:setPosition(arrow_bg:getPositionX() + arrow_bg:getContentSize().width/2, 28)
+    self.comment_btn = self.top_panel:getChildByName("comment_btn")
+    self.look_btn = self.top_panel:getChildByName("look_btn")
+
+    -- The new CSD places ALL detail panels under main_panel, not top_panel.
+    self.attr_panel = self.main_panel:getChildByName("attr_panel")
+    self.attr_icon_list, self.attr_label_list = {}, {}
+    for i=1,4 do
+        self.attr_icon_list[i] = self.attr_panel:getChildByName("attr_icon"..i)
+        self.attr_label_list[i] = self.attr_panel:getChildByName("attr_label"..i)
+    end
+
+    self.skill_panel = self.main_panel:getChildByName("skill_panel")
+    self.skill_container = self.skill_panel:getChildByName("scroll_view")
+    self.skill_container:setScrollBarEnabled(false)
+    self.skill_container:setTouchEnabled(true)
+    self.skill_container_size = self.skill_container:getContentSize()
+    self.skill_item_list = {}
+
+    self.nhan_thuat_panel = self.main_panel:getChildByName("nhan_thuat_panel")
+    self.nhan_thuat_holder = self.nhan_thuat_panel:getChildByName("scroll_view")
+    self.nhan_thuat_node = self.nhan_thuat_holder:getChildByName("node")
+    self.nhan_thuat_tips = self.nhan_thuat_panel:getChildByName("tips")
+    local nhan_thuat_key = self.nhan_thuat_panel:getChildByName("key")
+    if nhan_thuat_key then nhan_thuat_key:setString("Nhẫn Thuật") end
+
+    self.equip_panel = self.main_panel:getChildByName("trang_bi_panel")
+    self.equip_holder = self.equip_panel:getChildByName("scroll_view")
+    self.equip_node_list = {}
+    for i=1,4 do self.equip_node_list[i] = self.equip_holder:getChildByName("node_"..i) end
+    self.equip_item_list = {}
+
+    self.artifact_panel = self.main_panel:getChildByName("bi_thuat_panel")
+    self.artifact_holder = self.artifact_panel:getChildByName("scroll_view")
+    self.artifact_node_list = {
+        self.artifact_holder:getChildByName("equip_node1"),
+        self.artifact_holder:getChildByName("equip_node2"),
+    }
+    self.artifact_item_list = {}
+
+    self.holy_panel = self.main_panel:getChildByName("than_trang_panel")
+    self.holy_holder = self.holy_panel:getChildByName("scroll_view")
+    self.holy_equip_node_list = {}
+    for i=1,4 do self.holy_equip_node_list[i] = self.holy_holder:getChildByName("node_"..i) end
+    self.holy_equip_item_list = {}
+
+    self.anky_panel = self.main_panel:getChildByName("an_ky_panel")
+    self.daocu_panel = self.main_panel:getChildByName("dao_cu_panel")
+    self.special_item_lists = {anky={}, daocu={}}
+    self.special_skill_items = {}
+    self.talent_skill_item_list = {}
+    self.btn_goto = self.main_panel:getChildByName("btn_goto")
+    if self.btn_goto then
+        local label = self.btn_goto:getChildByName("label")
+        if label then label:setString(TI18N("语言_c_3205")) end
+        self.btn_goto:setVisible(false)
+    end
+end
+
+function HeroTipsPanel:register_event()
+    registerButtonEventListener(self.background, handler(self, self.onClickCloseBtn) ,false, 1)
+    registerButtonEventListener(self.comment_btn, function() self:onClickCommentBtn()  end ,true, 2, nil , 0.8)
+    registerButtonEventListener(self.look_btn, function() self:onClickLookBtn() end ,true, 2, nil, 0.8)
+    registerButtonEventListener(self.btn_goto, function() self:onClickGotoBtn() end ,true, 2)
+
+    self:addGlobalEvent(HeroEvent.Del_Hero_Event, function(list)
+        if self.hero_vo then
+            for i,v in ipairs(list) do
+                if self.hero_vo.partner_id == v.partner_id then
+                    self:onClickCloseBtn()
+                end
+            end
+        end
+    end)
+
+    self:addGlobalEvent(HeroEvent.Hero_Get_Talent_Event, function()
+        if self.hero_vo then
+            self:updateTalent(self.hero_vo)
+        end
+    end)
+end
+
+--评论
+function HeroTipsPanel:onClickCommentBtn()
+    if not self.hero_vo then return end
+    PokedexController:getInstance():openCommentWindow(true, self.hero_vo)
+end
+
+--关闭
+function HeroTipsPanel:onClickCloseBtn()
+    controller:openHeroTipsPanel(false)
+end
+
+function HeroTipsPanel:onClickLookBtn()
+    if not self.hero_vo then return end 
+    controller:openHeroTipsAttrPanel(true, self.hero_vo)
+end
+
+--前往更换英雄
+function HeroTipsPanel:onClickGotoBtn()
+    if not self.hero_vo then return end 
+    RoleController:getInstance():openRoleHeroShowFormPanel(true)
+    self:onClickCloseBtn()
+end
+
+-- @setting.is_hide_equip 是否隐藏装备 
+-- @setting.is_show_form_btn 是否显示更换英雄按钮(目前只有一个地方传这个按钮..如果有多.需改成支持多个的方式 --by lwc)
+-- 如果显示更换英雄按钮..必须is_hide_equip = false
+function HeroTipsPanel:openRootWnd(hero_vo, setting)
+    if not hero_vo then return end
+    local config = Config.PartnerData.data_partner_base[hero_vo.bid]
+    if not config then return end
+    self.hero_vo = hero_vo
+    setting = setting or {}
+    local is_hide_equip = setting.is_hide_equip or false
+
+    if self.score_image then
+        local score = controller:getModel():heroBidScore(hero_vo.bid)
+        local res = PathTool.getResFrame("partnersummon",
+            string.format("partner_rarity_%s", tostring(score)), false)
+        if res then self.score_image:loadTexture(res, LOADTEXT_TYPE_PLIST) end
+    end
+    self.hero_item:setData(hero_vo)
+    self.hero_name:setString(config.name)
+    self.fight_label:setNum(hero_vo.power or 0)
+    self:updateAdvanceInfo(hero_vo)
+    for i,attr_str in ipairs(self.attr_list) do
+        local icon = self.attr_icon_list[i]
+        local label = self.attr_label_list[i]
+        if icon then
+            local res_id = PathTool.getAttrIconByStr(attr_str)
+            loadSpriteTexture(icon, PathTool.getResFrame("common",res_id), LOADTEXT_TYPE_PLIST)
+        end
+        if label then label:setString(tostring(hero_vo[attr_str] or 0)) end
+    end
+    local key = getNorKey(config.type, config.break_id, hero_vo.break_lev)
+    local break_config = Config.PartnerData.data_partner_brach[key]
+    self:initSkill(hero_vo, break_config or {skill_num=999})
+    self:updateTalent(hero_vo)
+
+    local panels = {self.equip_panel, self.artifact_panel,
+                    self.holy_panel, self.anky_panel, self.daocu_panel}
+    for _,panel in ipairs(panels) do if panel then panel:setVisible(not is_hide_equip) end end
+    if not is_hide_equip then
+        self:updateEquip(hero_vo)
+        self:updateArtifact(hero_vo)
+        self:updateHolyEquip(hero_vo)
+        self:updateSpecialEquip(hero_vo, "anky", self.anky_panel,
+            {"anky_info", "anky_state", "anky_equipment", "anky_slots", "anky_list", "anky_eqm_list", "seal_list"})
+        self:updateSpecialEquip(hero_vo, "daocu", self.daocu_panel,
+            {"daocu_info", "daocu_state", "daocu_equipment", "daocu_slots", "daocu_list", "daocu_eqm_list"})
+    end
+    if self.btn_goto then self.btn_goto:setVisible(setting.is_show_form_btn == true) end
+end
+
+function HeroTipsPanel:updateAdvanceInfo(hero_vo)
+    local break_count = hero_vo.break_lev or 0
+    if model:isResonateCystalHero(hero_vo) then
+        break_count = hero_vo.resonate_break_lev or 0
+    end
+    if self.advanced_key then self.advanced_key:setString("Bậc: "..tostring(break_count)) end
+    -- One existing sprite instead of a row of stars overflowing the new CSD.
+    if not self.break_count_icon then
+        local res = PathTool.getResFrame("tips", "tips_12")
+        self.break_count_icon = createSprite(res, 0, 0, self.advanced_node,
+                                           cc.p(0,0.5), LOADTEXT_TYPE_PLIST, 1)
+        self.break_count_icon:setScale(0.65)
+    end
+    self.break_count_icon:setVisible(true)
+end
+
+function HeroTipsPanel:initSkill(hero_vo, break_config)
+    local key = getNorKey(hero_vo.bid, hero_vo.star)
+    local star_config = Config.PartnerData.data_partner_star(key)
+    local skills, seen = {}, {}
+    local function push(skill_id, required)
+        skill_id = tonumber(skill_id)
+        if not skill_id or seen[skill_id] then return end
+        local cfg = Config.SkillData.data_get_skill(skill_id)
+        if cfg then
+            seen[skill_id] = true
+            table_insert(skills, {config=cfg, required=required or 0})
+        end
+    end
+    if star_config and star_config.skills then
+        for _,skill in ipairs(star_config.skills) do
+            if skill[1] ~= 1 then push(skill[2], skill[1]) end
+        end
+    end
+    -- Supplementary skills supplied by newer HeroVo versions, if present.
+    for _,field in ipairs({"extra_skills", "skill_list"}) do
+        local source = hero_vo[field]
+        if type(source) == "table" then
+            for _,v in pairs(source) do
+                if type(v) == "table" then
+                    push(v.skill_id or v.skill_bid or v[2], v.required or 0)
+                else
+                    push(v, 0)
+                end
+            end
+        end
+    end
+    local width = self.skill_width + 16
+    local total = width * #skills
+    self.skill_container:setInnerContainerSize(
+        cc.size(math.max(total, self.skill_container_size.width),
+                self.skill_container_size.height))
+    for _,v in ipairs(self.skill_item_list) do v:setVisible(false) end
+    for i,data in ipairs(skills) do
+        if not self.skill_item_list[i] then
+            local item = SkillItem.new(true,true,true,0.7,true)
+            self.skill_container:addChild(item)
+            self.skill_item_list[i] = item
+        end
+        local item = self.skill_item_list[i]
+        item:setData(data.config)
+        item:showUnEnabled(data.required > (break_config.skill_num or 999))
+        item:setPosition(width*(i-0.5), self.skill_width/2+6)
+        item:setVisible(true)
+    end
+    if self.skill_container.jumpToLeft then self.skill_container:jumpToLeft() end
+end
+
+function HeroTipsPanel:updateEquip(hero_vo)
+    local equip_vo_list = {}
+    if hero_vo.eqms ~= nil then
+        for _,v in ipairs(hero_vo.eqms) do
+            if v.base_id then
+                local vo = GoodsVo.New(v.base_id)
+                if vo and vo.initAttrData then vo:initAttrData(v) end
+                if vo then equip_vo_list[v.type] = vo end
+            end
+        end
+    elseif hero_vo.eqm_list ~= nil then
+        for k,v in pairs(hero_vo.eqm_list) do equip_vo_list[k] = v end
+    end
+    for i,node in ipairs(self.equip_node_list) do
+        local equip_type = self.equip_type_list[i] or i
+        local item = self.equip_item_list[i]
+        if not item then
+            item = BackPackItem.new(false,true,nil,1,false,true)
+            node:addChild(item,1)
+            item:setPosition(cc.p(0,0))
+            item:setScale(0.7)
+            local current_index = i
+            item:addBtnCallBack(function()
+                self:selectEquipVo(item:getData(), current_index)
+            end)
+            local icon_name = self.equip_icon_name_list[equip_type]
+            if icon_name then
+                local res = PathTool.getResFrame("hero",icon_name)
+                item.empty_icon = createImage(item:getRoot(),res,60,60,
+                                              cc.p(0.5,0.5),true,10,false)
+            end
+            self.equip_item_list[i] = item
+        end
+        local vo = equip_vo_list[equip_type]
+        item:setData(vo)
+        if item.empty_icon then item.empty_icon:setVisible(vo == nil) end
+    end
+    local tips = self.equip_panel:getChildByName("tips")
+    if tips then tips:setVisible(false) end
+end
+
+function HeroTipsPanel:selectEquipVo(equip_vo, index)
+    if not self.hero_vo then return end
+    if not equip_vo then return end
+    if index == 5 or index == 6 then
+        --5 ,6 是神器的位置
+        local pos = index - 4
+        controller:openArtifactTipsWindow(true, equip_vo, PartnerConst.ArtifactTips.normal, self.hero_vo.partner_id, pos)
+    else
+        controller:openEquipTips(true, equip_vo, PartnerConst.EqmTips.normal, self.hero_vo) 
+    end
+end
+
+function HeroTipsPanel:updateTalent(hero_vo)
+    local role_vo = RoleController:getInstance():getRoleVo()
+    if role_vo and hero_vo.rid and hero_vo.srv_id
+        and role_vo.rid == hero_vo.rid and role_vo.srv_id == hero_vo.srv_id then
+        if model:isOpenTanlentByHerovo(hero_vo)
+            and hero_vo.ishaveTalentData and not hero_vo:ishaveTalentData() then
+            controller:sender11099({{partner_id=hero_vo.partner_id}})
+            return
+        end
+    end
+    local skills = {}
+    if hero_vo.talent_skill_list then
+        for pos,id in pairs(hero_vo.talent_skill_list) do
+            table_insert(skills,{pos=tonumber(pos) or 0,skill_id=id})
+        end
+    elseif hero_vo.dower_skill then
+        for _,v in pairs(hero_vo.dower_skill) do
+            table_insert(skills,{pos=tonumber(v.pos) or 0,skill_id=v.skill_id})
+        end
+    end
+    table_sort(skills,function(a,b) return a.pos < b.pos end)
+    for _,v in ipairs(self.talent_skill_item_list) do v:setVisible(false) end
+    local count = 0
+    for _,v in ipairs(skills) do
+        local config = Config.SkillData.data_get_skill(v.skill_id)
+        if config then
+            count = count + 1
+            local item = self.talent_skill_item_list[count]
+            if not item then
+                item = SkillItem.new(true,true,true,0.7,nil,false)
+                self.nhan_thuat_holder:addChild(item)
+                self.talent_skill_item_list[count] = item
+            end
+            item:setData(config)
+            item:setPosition(52+(count-1)*97,40)
+            item:setVisible(true)
+        end
+    end
+    if self.nhan_thuat_tips then
+        self.nhan_thuat_tips:setVisible(count == 0)
+        if count == 0 then self.nhan_thuat_tips:setString("Chưa có Nhẫn Thuật") end
+    end
+end
+
+function HeroTipsPanel:updateHolyEquip(hero_vo)
+    local vo_list = {}
+    if hero_vo.holy_eqm then
+        for _,v in ipairs(hero_vo.holy_eqm) do
+            local cfg = Config.ItemData.data_get_data(v.base_id)
+            if cfg then
+                local vo = GoodsVo.New(v.base_id)
+                if vo and vo.initAttrData then vo:initAttrData(v) end
+                if vo and vo.setEnchantScore then vo:setEnchantScore(0) end
+                vo_list[cfg.type] = vo
+            end
+        end
+    elseif hero_vo.holy_eqm_list then
+        for k,v in pairs(hero_vo.holy_eqm_list) do vo_list[k] = v end
+    end
+    for i,node in ipairs(self.holy_equip_node_list) do
+        local equip_type = self.holy_equip_type_list[i] or i
+        local item = self.holy_equip_item_list[i]
+        if not item then
+            item = BackPackItem.new(false,true,nil,1,false,true)
+            node:addChild(item,1)
+            item:setPosition(cc.p(0,0))
+            item:setScale(0.7)
+            local index = i
+            item:addBtnCallBack(function()
+                self:selectEquipVo(item:getData(),index)
+            end)
+            local icon_name = self.holy_equip_icon_name_list[equip_type]
+            if icon_name then
+                local res = PathTool.getResFrame("hero",icon_name)
+                item.empty_icon = createImage(item:getRoot(),res,60,60,
+                                              cc.p(0.5,0.5),true,10,false)
+            end
+            self.holy_equip_item_list[i] = item
+        end
+        local vo = vo_list[equip_type]
+        item:setData(vo)
+        if item.empty_icon then item.empty_icon:setVisible(vo == nil) end
+    end
+    local tips = self.holy_panel:getChildByName("tips")
+    if tips then
+        local lines = model:getHolyEquipSuitDes(vo_list)
+        if lines and next(lines) then
+            local names = {}
+            for _,v in ipairs(lines) do table_insert(names,v.name or "") end
+            tips:setString(table.concat(names,"  "))
+        else
+            tips:setString("Chưa kích hoạt bộ Thần Trang")
+        end
+    end
+end
+
+
+-- These nodes replace artifact slots 5 and 6 from the old equip_panel.
+function HeroTipsPanel:updateArtifact(hero_vo)
+    local artifacts = {}
+    if hero_vo.artifacts then
+        for _,v in ipairs(hero_vo.artifacts) do
+            local pos = tonumber(v.artifact_pos)
+            if pos and pos >= 1 and pos <= 2 and v.base_id then
+                local vo = GoodsVo.New(v.base_id)
+                if vo and vo.initAttrData then vo:initAttrData(v) end
+                artifacts[pos] = vo
+            end
+        end
+    elseif hero_vo.artifact_list then
+        for k,v in pairs(hero_vo.artifact_list) do
+            local pos = tonumber(k)
+            if pos and pos >= 1 and pos <= 2 then artifacts[pos] = v end
+        end
+    end
+    local count = 0
+    for i,node in ipairs(self.artifact_node_list) do
+        local item = self.artifact_item_list[i]
+        if not item then
+            item = BackPackItem.new(false,true,nil,1,false,true)
+            node:addChild(item,1)
+            item:setPosition(cc.p(0,0))
+            item:setScale(0.7)
+            local index = i
+            item:addBtnCallBack(function()
+                self:selectEquipVo(item:getData(),index+4)
+            end)
+            self.artifact_item_list[i] = item
+        end
+        item:setData(artifacts[i])
+        local bg = self.artifact_holder:getChildByName("artifacts_bg_"..i)
+        if bg then bg:setVisible(artifacts[i] == nil) end
+        if artifacts[i] then count = count + 1 end
+    end
+    local tips = self.artifact_panel:getChildByName("tips")
+    if tips then
+        tips:setVisible(count == 0)
+        if count == 0 then tips:setString("Chưa trang bị Bí Thuật") end
+    end
+end
+
+-- Read only equipped items exposed by HeroVo; do not display bag contents here.
+-- The exact Ấn Ký/Đạo Cụ HeroVo field must be provided by the matching protocol.
+
+-- Each row has exactly two output nodes:
+--   equip_node1 = first (smallest slot) equipped Ấn Ký / active Đạo Cụ
+--   equip_node2 = passive skill activated by that equipment, if any.
+local function getSpecialList(hero_vo, fields)
+    for _,field in ipairs(fields) do
+        local value = hero_vo[field]
+        if type(value) == "table" then
+            return value, value.slots or value.equips or value.items or value
+        end
+    end
+    return nil, nil
+end
+
+local function getSpecialSkillId(hero_vo, kind, state)
+    local n = state and (state.passive_skill or state.passive_skill_id
+                    or state.skill_id or state.active_skill) or nil
+    if type(n) == "table" then
+        n = n.skill_id or n.skill_bid or n.id
+    end
+    if not n then
+        n = hero_vo[kind.."_passive_skill"] or hero_vo[kind.."_skill_id"]
+            or hero_vo[kind.."_skill"]
+    end
+    if type(n) == "table" then n = n.skill_id or n.skill_bid or n.id end
+    return tonumber(n) or 0
+end
+
+local function getSpecialItemData(entry)
+    if type(entry) ~= "table" then return nil end
+    return entry.item or entry.goods or entry.data or entry
+end
+
+function HeroTipsPanel:updateSpecialEquip(hero_vo, group_name, panel, fields)
+    if not panel then return end
+    local holder = panel:getChildByName("scroll_view")
+    if not holder then return end
+    local node_item = holder:getChildByName("equip_node1")
+    local node_skill = holder:getChildByName("equip_node2")
+    local bg_item = holder:getChildByName("artifacts_bg_1")
+    local bg_skill = holder:getChildByName("artifacts_bg_2")
+    local state, entries = getSpecialList(hero_vo, fields)
+
+    -- Dedicated Server equipment state uses {slot=1..9,base_id=...}.
+    -- Pick the SMALLEST equipped slot for Ấn Ký; only slot 1 for Đạo Cụ.
+    local chosen, chosen_slot
+    if type(entries) == "table" then
+        -- A direct item object is allowed for the one-slot Đạo Cụ.
+        if group_name == "daocu" and entries.base_id then
+            chosen, chosen_slot = entries, 1
+        else
+            for key,v in pairs(entries) do
+                local item_data = getSpecialItemData(v)
+                if item_data then
+                    local slot = tonumber(v.slot or v.pos or v.slot_id
+                               or v.equip_pos or key)
+                    local bid = item_data.base_id or item_data.bid
+                    if bid and slot and slot >= 1
+                        and slot <= (group_name == "anky" and 9 or 1) then
+                        if not chosen_slot or slot < chosen_slot then
+                            chosen_slot, chosen = slot, item_data
+                        end
+                    end
+                end
+            end
+        end
+    end
+    local cache = self.special_item_lists[group_name]
+    if node_item then
+        local item = cache[1]
+        if not item then
+            item = BackPackItem.new(false,true,nil,1,false,true)
+            node_item:addChild(item,1)
+            item:setPosition(cc.p(0,0))
+            item:setScale(0.7)
+            cache[1] = item
+        end
+        local goods
+        if chosen and chosen.base_id then
+            goods = GoodsVo.New(chosen.base_id)
+            if goods and goods.initAttrData then goods:initAttrData(chosen) end
+        end
+        item:setData(goods)
+        if bg_item then bg_item:setVisible(goods == nil) end
+    end
+
+    -- Use SkillItem, NOT BackPackItem, for the activated passive skill.
+    local skill_id = getSpecialSkillId(hero_vo, group_name, state)
+    local cfg = skill_id > 0 and Config.SkillData.data_get_skill(skill_id) or nil
+    local skill_cache = self.special_skill_items[group_name]
+    if not skill_cache then
+        skill_cache = {}
+        self.special_skill_items[group_name] = skill_cache
+    end
+    if node_skill then
+        if cfg then
+            local skill_item = skill_cache[1]
+            if not skill_item then
+                skill_item = SkillItem.new(true,true,true,0.7,nil,false)
+                node_skill:addChild(skill_item,1)
+                skill_item:setPosition(cc.p(0,0))
+                skill_cache[1] = skill_item
+            end
+            skill_item:setData(cfg)
+            skill_item:setVisible(true)
+        elseif skill_cache[1] then
+            skill_cache[1]:setVisible(false)
+        end
+    end
+    if bg_skill then bg_skill:setVisible(cfg == nil) end
+    local tips = panel:getChildByName("tips")
+    if tips then
+        tips:setVisible(chosen == nil)
+        if chosen == nil then
+            tips:setString(group_name == "anky" and "Chưa khảm Ấn Ký"
+                           or "Chưa sử dụng Đạo Cụ")
+        end
+    end
+end
+
+
+function HeroTipsPanel:close_callback()
+    if self.hero_item then self.hero_item:DeleteMe(); self.hero_item=nil end
+    if self.fight_label then self.fight_label:DeleteMe(); self.fight_label=nil end
+    local groups = {self.equip_item_list, self.artifact_item_list,
+                    self.holy_equip_item_list, self.skill_item_list,
+                    self.talent_skill_item_list}
+    if self.special_item_lists then
+        table_insert(groups,self.special_item_lists.anky)
+        table_insert(groups,self.special_item_lists.daocu)
+    end
+    if self.special_skill_items then
+        table_insert(groups,self.special_skill_items.anky)
+        table_insert(groups,self.special_skill_items.daocu)
+    end
+    for _,group in ipairs(groups) do
+        if group then
+            for _,item in pairs(group) do
+                if item and item.DeleteMe then item:DeleteMe() end
+            end
+        end
+    end
+    self.equip_item_list=nil
+    self.artifact_item_list=nil
+    self.holy_equip_item_list=nil
+    self.skill_item_list=nil
+    self.talent_skill_item_list=nil
+    self.special_item_lists=nil
+    self.special_skill_items=nil
+    controller:openHeroTipsPanel(false)
+end
