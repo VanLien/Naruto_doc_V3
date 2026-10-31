@@ -207,10 +207,22 @@ function HeroTipsPanel:openRootWnd(hero_vo, setting)
             string.format("partner_rarity_%s", tostring(score)), false)
         if res then self.score_image:loadTexture(res, LOADTEXT_TYPE_PLIST) end
     end
-    self.hero_item:setData(hero_vo)
+    -- Opponent/remote heroes can carry a partial HeroVo.
+    -- Prevent one optional display step from aborting HeroTips opening.
+    local okAvatar, errAvatar = pcall(function()
+        self.hero_item:setData(hero_vo)
+    end)
+    if not okAvatar then
+        print("[HeroTipsPanel] avatar display error: "..tostring(errAvatar))
+    end
     self.hero_name:setString(config.name)
     self.fight_label:setNum(hero_vo.power or 0)
-    self:updateAdvanceInfo(hero_vo)
+    local okAdvance, errAdvance = pcall(function()
+        self:updateAdvanceInfo(hero_vo)
+    end)
+    if not okAdvance then
+        print("[HeroTipsPanel] advance display error: "..tostring(errAdvance))
+    end
     for i,attr_str in ipairs(self.attr_list) do
         local icon = self.attr_icon_list[i]
         local label = self.attr_label_list[i]
