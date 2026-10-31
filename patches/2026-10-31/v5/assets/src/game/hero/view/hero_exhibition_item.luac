@@ -761,7 +761,12 @@ function HeroExhibitionItem:showThirteenEffect(status,eff_id,star)
                     if eff_id then
                         _eff_id = eff_id
                     end
-                    self.sixteen_effect = createEffectSpine(_eff_id, cc.p(63,27), cc.p(0.5, 0.5), true, PlayerAction.action)
+                    local effect_pos = cc.p(63,27)
+                    if self.star_setting.stacked_three_layers then
+                        local sz = self.star_setting.star10:getContentSize()
+                        effect_pos = cc.p(sz.width * 0.5, sz.height * 0.5)
+                    end
+                    self.sixteen_effect = createEffectSpine(_eff_id, effect_pos, cc.p(0.5, 0.5), true, PlayerAction.action)
                     self.star_setting.star10:addChild(self.sixteen_effect, 1)
                 else
                     local _eff_id = "E27811"
@@ -789,7 +794,12 @@ function HeroExhibitionItem:showThirteenEffect(status,eff_id,star)
                     if eff_id then
                         _eff_id = eff_id
                     end
-                    self.thirteen_effect2 = createEffectSpine(_eff_id, cc.p(63,20), cc.p(0.5, 0.5), true, PlayerAction.action)
+                    local effect_pos = cc.p(63,20)
+                    if self.star_setting.stacked_three_layers then
+                        local sz = self.star_setting.star10:getContentSize()
+                        effect_pos = cc.p(sz.width * 0.5, sz.height * 0.5)
+                    end
+                    self.thirteen_effect2 = createEffectSpine(_eff_id, effect_pos, cc.p(0.5, 0.5), true, PlayerAction.action)
                     self.star_setting.star10:addChild(self.thirteen_effect2, 1)
                 else
                     self.thirteen_effect2 = createEffectSpine("E27801", cc.p(0,-7), cc.p(0.5, 0.5), true, PlayerAction.action)
